@@ -47,6 +47,12 @@ table {
 	border-spacing: 0;
 }
 
+input::-moz-focus-inner {
+  border: 0;
+}
+
+
+
 body {
 	min-width: 700px;
 }
@@ -55,6 +61,10 @@ div.header {
 	width: 100%;
 	height: 70px;
 	border-bottom: 1px solid #ccc;
+}
+
+div.split {
+	height: 80px;
 }
 
 div.logo {
@@ -68,6 +78,33 @@ div.logo {
 	display: inline-block;
 }
 
+div.slogan {
+	width: 400px;
+	height: 60px;
+	display: inline-block;
+	position:absolute;
+	top:70px;
+}
+
+div.slogan span{
+	height: 30px;
+	top: 15px;
+	position: relative;
+	font-size: 30px;
+	font-style: italic;
+	font-weight: bold;
+	font-family: "Lucida Grande";
+}
+
+div.slogan span.p1{
+	color: #343433;
+}
+
+div.slogan span.p2{
+	color: #f7941e;
+}
+
+
 .header .navigation {
 	float: right;
 	width: 470px;
@@ -80,8 +117,21 @@ div.logo {
 	border:none;
 	width: 80px;
 	height: 30px;
-	vertical-align: center;
+	color: #343433;
 	background: none;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 20px;
+	padding: 0px;
+}
+
+.navigation .nav:hover {
+	color: #f7941e;
+}
+
+.navigation .nav:active{
+	border: none;
+	padding: 0px;
 	margin-left: 5px;
 	margin-right: 5px;
 	margin-top: 20px;

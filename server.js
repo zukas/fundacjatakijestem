@@ -34,7 +34,7 @@ var server = http.createServer(function (request, response) {
 	}
 
 	if(request.url === "/") {
-		fs.readFile("./public/html/inxite.html", __writeHandler);
+		fs.readFile("./public/html/index.html", __writeHandler);
 	} else {
 		request.url = "." + request.url;
 		if(fs.existsSync(request.url)) {
