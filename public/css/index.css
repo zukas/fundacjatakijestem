@@ -142,7 +142,6 @@ div.slogan span.p2{
 
 .content{
 	margin: 10px 20px 10px 20px;
-	border: 1px solid red;
 }
 
 .content .data{
@@ -155,6 +154,7 @@ div.slogan span.p2{
 .footer {
 	margin-left: 20px;
 	margin-right: 20px;
+	margin-bottom: 20px;
 	color: #888;
 	float: right;
 }
