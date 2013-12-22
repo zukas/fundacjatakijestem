@@ -55,6 +55,7 @@ input::-moz-focus-inner {
 
 body {
 	min-width: 700px;
+	height: 100%	;
 }
 
 div.header {
@@ -118,6 +119,8 @@ div.slogan span.p2{
 	width: 80px;
 	height: 30px;
 	color: #343433;
+	font-family: "Lucida Grande";
+	font-size: 12px;
 	background: none;
 	margin-left: 5px;
 	margin-right: 5px;
@@ -135,5 +138,24 @@ div.slogan span.p2{
 	margin-left: 5px;
 	margin-right: 5px;
 	margin-top: 20px;
+}
+
+.content{
+	margin: 10px 20px 10px 20px;
+	border: 1px solid red;
+}
+
+.content .data{
+	margin: 0px;
+	padding: 0px;
+	height: auto;
+	width: auto;
+}
+
+.footer {
+	margin-left: 20px;
+	margin-right: 20px;
+	color: #888;
+	float: right;
 }
 
