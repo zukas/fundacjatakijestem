@@ -1,0 +1,70 @@
+.contactPage{
+	margin-left: 20px;
+}
+
+.contactPage .address {
+	margin-top:10px;
+	margin-bottom: 30px;
+}
+
+.contactPage .address .split{
+	font-size: 16px;
+}
+
+.contactPage .contact{
+	margin-bottom: 20px;
+}
+
+.contactPage .contact .name,
+.contactPage .contact .phone, 
+.contactPage .contact .email {
+	height: 32px;
+	margin-top: 8px;
+}
+
+.contact .text{
+	line-height: 32px;
+	height: 32px;
+	word-spacing: 5px;
+	color: #343433;
+	font-size: 14px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 8px;
+}
+
+.contact .icon {
+	vertical-align: middle;
+}
+
+.contact .name .icon{
+	background-image: url("../images/user.png");
+	background-size: 32px 32px;
+	width:32px;
+	height:32px;
+	display: inline-block;
+}
+
+.contact .phone .icon{
+	background-image: url("../images/phone.png");
+	background-size: 32px 32px;
+	width:32px;
+	height:32px;
+	display: inline-block;
+}
+
+.contact .email .icon{
+	background-image: url("../images/mail.png");
+	background-size: 32px 32px;
+	width:32px;
+	height:32px;
+	display: inline-block;
+}
+
+.contact .general .icon{
+	background-image: url("../images/monitor.png");
+	background-size: 32px 32px;
+	width:32px;
+	height:32px;
+	display: inline-block;
+}
