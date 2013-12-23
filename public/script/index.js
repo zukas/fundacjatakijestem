@@ -1,7 +1,9 @@
 $( document ).ready(function() {
 
 	var _calcHeight = function (){
-			$("body div.content").css("height", $("body").height() - 220);	
+			var _calc  = $("body").height() - 220;
+			_calc = _calc<500?500:_calc;
+			$("body div.content").css("height", _calc);	
 		},
 		_loader = function (data) {
 			$("body div.content .data").html(data);

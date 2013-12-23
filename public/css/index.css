@@ -56,12 +56,16 @@ input::-moz-focus-inner {
 body {
 	min-width: 700px;
 	height: 100%;
-	font-family: "Avantgarde", "sans-serif";
+	min-height: 500px;
+	font-family: "Avantgarde", "sans-serif" !important;
+	margin-left: 20px;
 }
 
 .center {
 	width: 50%;
-	margin-left: 25%;
+	min-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 div.header {
@@ -75,7 +79,6 @@ div.headerSeparator {
 }
 
 div.logo {
-
 	background-image: url("../images/logo.png");
 	width: 170px;
 	height: 140px;
@@ -145,6 +148,7 @@ div.slogan span.p2{
 }
 
 .content{
+	min-width: 700px;
 	margin: 10px auto 10px auto;
 	width: 50%;
 	overflow-y: auto;
@@ -165,7 +169,7 @@ div.slogan span.p2{
 
 .footer .text{
 	margin-top: 15px;
-	margin-left: 25%;
+	margin-left: 0px;
 	height: 20px;
 	line-height: 20px;
 	color: #888;

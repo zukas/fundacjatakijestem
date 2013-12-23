@@ -1,3 +1,12 @@
+.homePage {
+	position: relative;
+	height: 100%;
+}
+
+.presentation {
+	height: 400px;
+}
+
 .homePage .homeImage {
 	background-image: url("../images/christmas.jpg");
 	background-size: 229px 339px;
@@ -11,7 +20,9 @@
 .homePage .homeText {
 	margin: 0px;
 	display: inline-block;
-	position: absolute;
+	position: relative;
+	width: 400px;
+	height: 339px;
 	margin-left: 250px;
 }
 
@@ -25,7 +36,8 @@
 .homePage .charityInfo {
 	display: block;
 	position: absolute;
-	bottom:50px;
+	height: 80px;
+	bottom: 0px;
 }
 
 .homePage .charityInfo .split{
