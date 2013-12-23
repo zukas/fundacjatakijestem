@@ -30,9 +30,9 @@ var server = http.createServer(function (request, response) {
 	}
 
 	if(request.url === "/") {
-		fs.readFile("./public/html/index.html", __writeHandler);
+		fs.readFile(__dirname + "/public/html/index.html", __writeHandler);
 	} else {
-		request.url = "." + request.url;
+		request.url = __dirname + request.url;
 		if(fs.existsSync(request.url)) {
 			fs.readFile(request.url, __writeHandler);
 		}else{
