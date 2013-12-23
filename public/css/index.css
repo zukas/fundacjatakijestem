@@ -55,7 +55,13 @@ input::-moz-focus-inner {
 
 body {
 	min-width: 700px;
-	height: 100%	;
+	height: 100%;
+	font-family: "Avantgarde", "sans-serif";
+}
+
+.center {
+	width: 50%;
+	margin-left: 25%;
 }
 
 div.header {
@@ -64,7 +70,7 @@ div.header {
 	border-bottom: 1px solid #ccc;
 }
 
-div.split {
+div.headerSeparator {
 	height: 80px;
 }
 
@@ -94,7 +100,6 @@ div.slogan span{
 	font-size: 30px;
 	font-style: italic;
 	font-weight: bold;
-	font-family: "Lucida Grande";
 }
 
 div.slogan span.p1{
@@ -107,11 +112,11 @@ div.slogan span.p2{
 
 
 .header .navigation {
-	float: right;
 	width: 470px;
-	height: 100%;
-	margin-right: 20px;
+	height: 70px;
 	padding: 0px;
+	position: absolute;
+	display: inline-block;
 }
 
 .navigation .nav {
@@ -119,8 +124,7 @@ div.slogan span.p2{
 	width: 80px;
 	height: 30px;
 	color: #343433;
-	font-family: "Lucida Grande";
-	font-size: 12px;
+	font-size: 14px;
 	background: none;
 	margin-left: 5px;
 	margin-right: 5px;
@@ -141,7 +145,9 @@ div.slogan span.p2{
 }
 
 .content{
-	margin: 10px 20px 10px 20px;
+	margin: 10px auto 10px auto;
+	width: 50%;
+	overflow-y: auto;
 }
 
 .content .data{
@@ -151,11 +157,34 @@ div.slogan span.p2{
 	width: auto;
 }
 
-.footer {
-	margin-left: 20px;
-	margin-right: 20px;
-	margin-bottom: 20px;
-	color: #888;
-	float: right;
+.footer{
+	height: 20px;
+	width: 100%;
+	border-top: 1px solid #ccc;
 }
 
+.footer .text{
+	margin-top: 15px;
+	margin-left: 25%;
+	height: 20px;
+	line-height: 20px;
+
+	color: #888;
+}
+
+.split{
+	text-align: left;
+	line-height: 1.5em;
+	min-height: 1.5em;
+	height:auto;
+	word-spacing: 5px;
+	color: #343433;
+	font-size: 14px;
+}
+
+.split.headline{
+	color: #f7941e;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: bold;
+}
