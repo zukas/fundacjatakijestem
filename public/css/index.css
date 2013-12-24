@@ -57,6 +57,10 @@ body {
 	min-width: 700px;
 	height: 100%;
 	min-height: 500px;
+	
+}
+
+.mainFont{
 	font-family: "Avantgarde", "sans-serif" !important;
 }
 
