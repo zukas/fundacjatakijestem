@@ -179,9 +179,8 @@ div.slogan span.p2{
 .split{
 	text-align: left;
 	line-height: 1.5em;
-	min-height: 1.5em;
-	height:auto;
-	word-spacing: 5px;
+	min-height: 1em;
+	word-spacing: 3px;
 	color: #343433;
 	font-size: 14px;
 }
