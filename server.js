@@ -37,7 +37,7 @@ var server = http.createServer(function (request, response) {
 	if(request.url === "/") {
 		fs.readFile(__dirname + "/public/html/index.html", __writeHandler);
 	} else {
-		request.url = __dirname + request.url;
+		request.url = __dirname + (request.url.lastIndexOf("?")!=-1?request.url.substring(0,request.url.lastIndexOf("?")):request.url);
 		if(_cache[request.url]){
 			__writeHandler(null, _cache[request.url]);
 		} else {
