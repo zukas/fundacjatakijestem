@@ -10,7 +10,7 @@ $( document ).ready(function() {
 	$(".content .data .aboutPage").load("public/html/__about.html");
 	$(".content .data .galleryPage").load("public/html/__gallery.html", function () {
 		$('#myGallery').galleryView({
-			panel_width : 650,
+			panel_width : 690,
 			panel_height: 430,
 			transition_speed: 500,
 			panel_animation: 'none',
