@@ -58,12 +58,10 @@ body {
 	height: 100%;
 	min-height: 500px;
 	font-family: "Avantgarde", "sans-serif" !important;
-	margin-left: 20px;
 }
 
 .center {
-	width: 50%;
-	min-width: 700px;
+	width: 700px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -148,9 +146,8 @@ div.slogan span.p2{
 }
 
 .content{
-	min-width: 700px;
+	width: 700px;
 	margin: 10px auto 10px auto;
-	width: 50%;
 	overflow-y: auto;
 }
 
