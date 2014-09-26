@@ -1,55 +1,56 @@
-var http = require('http'),
-	fs = require('fs');
+var express = require('express');
+var routes = require('./routes');
+var path = require('path');
+
+var favicon = require('serve-favicon');
+var logger = require('morgan');
+var methodOverride = require('method-override');
+var session = require('express-session');
+var bodyParser = require('body-parser');
+var multer = require('multer');
+var errorHandler = require('errorhandler');
+var swig = require('swig');
+
+var app = express();
+
+global.async = function () {
+	if(arguments.length === 0 && typeof arguments[0] !== "function") throw "Bad argument to async";
+	var _args = [],
+		i;
+	for(i in arguments) _args.push(arguments[i]);
+	process.nextTick(function () {
+		var func = _args.splice(0, 1)[0];
+		func.apply(this, _args);
+	});
+};
 
 
-// Configure our HTTP server to respond with Hello World to all requests.
-var server = http.createServer(function (request, response) {
+app.engine('html', swig.renderFile);
+// all environments
+app.set('port', process.env.PORT || 3000);
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'html');
+app.use(favicon(__dirname + '/public/favicon.ico'));
+app.use(logger('dev'));
+app.use(methodOverride());
+app.use(session({ resave: true,
+                  saveUninitialized: true,
+                  secret: 'uwotm8' }));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(multer());
+app.use(express.static(path.join(__dirname, 'public')));
 
-	var _cache = {},
-		__writeHandler = function (err, data) {
-		
-			if (err) {
-				console.log("Error reading file");
-				console.log(err);
-				response.writeHead(404);
-			} else {
-				if(!_cache[request.url]){
-					_cache[request.url] = data;
-				}
-				
-				var _type = request.url.substring(request.url.lastIndexOf(".")+1),
-					_mime = {
-						"html" : "text/html",
-						"css" : "text/css",
-						"js" : "application/javascript",
-						"png" : "image/png",
-						"jpg" : " image/jpeg",
-						"jpeg" : " image/jpeg"
-					}
+// development only
+if ('development' == app.get('env')) {
+  app.use(errorHandler());
+}
 
-				response.writeHead(200, {"Content-Type": _mime[_type]});
-				response.write(data);
-			}
-			
-	  		response.end();
-		}
+app.get('/', routes.index);
+app.post('/', routes.pages);
 
-	if(request.url === "/") {
-		fs.readFile(__dirname + "/public/html/index.html", __writeHandler);
-	} else {
-		request.url = __dirname + (request.url.lastIndexOf("?")!=-1?request.url.substring(0,request.url.lastIndexOf("?")):request.url);
-		if(_cache[request.url]){
-			__writeHandler(null, _cache[request.url]);
-		} else {
-			if(fs.existsSync(request.url)) {
-				fs.readFile(request.url, __writeHandler);
-			}else{
-				response.writeHead(302, { "Location": "/"});
-				response.end();
-			}
-		}
-	}
-
+require("./db").start(function () {
+	app.listen(app.get('port'), function(){
+	  console.log('Express server listening on port ' + app.get('port'));
+	});
 });
-
-server.listen(8000);
