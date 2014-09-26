@@ -1,0 +1,39 @@
+{
+  "name": "fundacjatakijestem",
+  "version": "1.0.0",
+  "description": "Charity website",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.9.0",
+    "errorhandler": "^1.2.0",
+    "express": "^4.9.5",
+    "express-generator": "^4.9.0",
+    "express-session": "^1.8.2",
+    "method-override": "^2.2.0",
+    "mongodb": "^1.4.15",
+    "morgan": "^1.3.1",
+    "multer": "^0.1.4",
+    "serve-favicon": "^2.1.5",
+    "swig": "^1.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zukas/fundacjatakijestem.git"
+  },
+  "keywords": [
+    "charity",
+    "children",
+    "family",
+    "help"
+  ],
+  "author": "Julius Zukauskas",
+  "license": "GPLv2",
+  "bugs": {
+    "url": "https://github.com/zukas/fundacjatakijestem/issues"
+  },
+  "homepage": "https://github.com/zukas/fundacjatakijestem"
+}

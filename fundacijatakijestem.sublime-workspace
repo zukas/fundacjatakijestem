@@ -1,0 +1,227 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"emi",
+				"email"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"em",
+				"email"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"ne",
+				"nextTick"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/zukas/Repos/fundacjatakijestem"
+	],
+	"file_history":
+	[
+		"/home/zukas/Repos/Inxite/website/engines/incidents.js",
+		"/home/zukas/Repos/Inxite/website/public/scripts/login/login.js",
+		"/home/zukas/Repos/Inxite/website/engines/misc.js",
+		"/home/zukas/Repos/Inxite/website/routes/misc.js",
+		"/home/zukas/Repos/Inxite/website/views/notification.html",
+		"/home/zukas/Repos/Inxite/website/clientApi/pushApi.js",
+		"/home/zukas/Repos/Inxite/website/public/scripts/notification.js",
+		"/home/zukas/Repos/Inxite/website/engines/client.js",
+		"/home/zukas/Repos/Inxite/website/clientApi/newApi.js",
+		"/home/zukas/Repos/Inxite/website/engines/profiles.js",
+		"/home/zukas/Repos/Inxite/website/accounts.js",
+		"/home/zukas/Repos/Inxite/website/routes/login.js",
+		"/home/zukas/Repos/Inxite/website/email.js",
+		"/home/zukas/Repos/Inxite/website/engines/login.js",
+		"/home/zukas/Repos/Inxite/website/views/emailTemplates/createUser.jade",
+		"/home/zukas/Repos/Inxite/website/views/emailTemplates/createAccount.jade",
+		"/home/zukas/Repos/Inxite/website/routes/profiles.js",
+		"/home/zukas/Repos/Inxite/website/engines/utils.js",
+		"/home/zukas/Repos/Inxite/website/config_example.json",
+		"/home/zukas/Repos/Inxite/website/config.json",
+		"/home/zukas/Repos/Inxite/website/engines/widgets.js",
+		"/home/zukas/Repos/Inxite/website/engines/preferences.js",
+		"/home/zukas/Repos/Inxite/website/engines/notifications.js",
+		"/home/zukas/Repos/Inxite/website/engines/groups.js",
+		"/home/zukas/Repos/Inxite/website/routes/mobile.js"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"",
+			"/home/zukas/Repos/Inxite/website/engines",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"updateClientStatus",
+			"updateClientState",
+			"changeTrayIcon",
+			"emit(\"changeTrayIcon\"",
+			"><",
+			"log",
+			"devBuild",
+			"reset",
+			"resetPass",
+			"logout",
+			"log",
+			"log("
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			">\\n<",
+			">\\r\\n<",
+			">\\\\n<",
+			">\\n<"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "fundacijatakijestem.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 322.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

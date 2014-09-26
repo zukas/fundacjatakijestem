@@ -1,0 +1,27 @@
+#content #text {
+	margin: 0px;
+	display: inline-block;
+	position: relative;
+	width: 400px;
+	height: 339px;
+	margin-left: 250px;
+}
+
+#content #text .split{
+	text-align: center !important;
+	font-size: 15px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#content #charityInfo {
+	display: block;
+	position: absolute;
+	height: 80px;
+	bottom: 0px;
+}
+
+#content #charityInfo .split{
+	color: #888;
+	font-size: 16px;
+}

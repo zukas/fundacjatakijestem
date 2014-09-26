@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+	<head>
+  		<meta charset="utf-8">
+  		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  		<script type="text/javascript" src="./script/init.js"></script>
+  		<link rel="stylesheet" href="./css/style.css" type="text/css">
+  		<title>{% block title %}Fundacja Taki Jestem - {{ caption }} {% endblock %}</title>
+  		{% block head %}
+  		{% endblock %}
+	</head>
+	<body class="mainFont">
+		<div id="header">
+			<div class="center">
+		    	<div id="logo"></div>
+		    	<div id="slogan"><span class="p1">Fundacja </span><span class="p2">Taki Jestem</span></div>
+		    	<div id="navigation">
+		    		<input type="button" class="nav" id="home" value="Home"></input>
+		    		<input type="button" class="nav" id="about" value="About"></input>
+		    		<input type="button" class="nav" id="gallery" value="Gallery"></input>
+		    		<input type="button" class="nav" id="events" value="Events"></input>
+		    		<input type="button" class="nav" id="contact" value="Contact"></input>
+		    	</div>
+	    	</div>
+	    </div>
+	    <div id="headerSeparator"></div>
+	    <div id="contentWrapper">
+	    	<div id="content" class="center">
+	    		{% block content %}{% endblock %}
+	    	</div>
+	    </div>
+	    <div id="footer">
+	    	<div class="center">
+	    		<div class="text">Fundacja Taki Jestem&reg; (KRS: 0000475152) supported by zukas</div>
+	    	</div>
+	    </div>
+	</body>
+</html>
