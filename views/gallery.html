@@ -1,4 +1,11 @@
-<ul id="myGallery">
+{% extends 'layout.html' %}
+
+{% block style %}
+<link rel="stylesheet" href="./css/gallery.css" type="text/css"/>
+{% endblock %}
+
+{% block content %}
+<ul id="galleryContent">
 	<li><img src="http://www.spaceforaname.com/galleryview/img/photos/bp1.jpg" alt="Lone Tree Yellowstone" />
 	<li><img src="http://www.spaceforaname.com/galleryview/img/photos/bp2.jpg" alt="Is He Still There?!" />
 	<li><img src="http://www.spaceforaname.com/galleryview/img/photos/bp4.jpg" alt="Noni Nectar For Green Gecko" />
@@ -13,3 +20,4 @@
 	<li><img src="http://www.spaceforaname.com/galleryview/img/photos/bp53.jpg" alt="Blue Lagoon" />
 	<li><img src="http://www.spaceforaname.com/galleryview/img/photos/bp54.jpg" alt="Time" />
 </ul>
+{% endblock %}

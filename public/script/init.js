@@ -3,27 +3,19 @@ function updatePage()
 	var _height  = $("body").height() - 220;
 	console.log(_height);
 	$("#contentWrapper").height(_height);
+	$("#contentWrapper").perfectScrollbar('update');
 }
 
 $( document ).ready(function () {
 
-	$("input#home").click(function () {
-		$("#content").load("/", { page : "home" });
+	$("input.nav").click(function () {
+		window.location.href = '/' + this.id;
 	});
-	$("input#about").click(function () {
-		$("#content").load("/", { page : "about" });
-	});
-	$("input#gallery").click(function () {
-		$("#content").load("/", { page : "gallery" });
-	});
-	$("input#events").click(function () {
-		$("#content").load("/", { page : "events" });
-	});
-	$("input#contact").click(function () {
-		$("#content").load("/", { page : "contact" });
-	});
-
 	updatePage();
+	$("#contentWrapper").perfectScrollbar({
+		suppressScrollX: true,
+		maxScrollbarLength : 50
+	});
 });
 $( window ).resize(updatePage);
 

@@ -69,8 +69,8 @@ body {
 
 .center {
 	width: 700px;
-	margin-left: auto;
-	margin-right: auto;
+	margin:0px auto; 
+	padding:0px;
 }
 
 #header {
@@ -120,7 +120,7 @@ body {
 
 
 #navigation {
-	width: 470px;
+	width: 500px;
 	height: 70px;
 	padding: 0px;
 	position: absolute;
@@ -153,18 +153,20 @@ body {
 }
 
 #contentWrapper{
-	height: 100%;
-	overflow-y: auto;
+	overflow: hidden;
+	position:relative; 
+	padding: 0px 20px 0px 20px;
 }
 
 #footer{
-	padding-top: 15px;
-	height: 20px;
+	margin-top: 10px;
+	height: 40px;
 	width: 100%;
 	border-top: 1px solid #ccc;
 }
 
 #footer .text{
+	margin-top: 17px;
 	height: 20px;
 	line-height: 20px;
 	color: #888;

@@ -2,12 +2,16 @@
 <html>
 	<head>
   		<meta charset="utf-8">
-  		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  		<script type="text/javascript" src="./script/perfect-scrollbar.min.js"></script>
   		<script type="text/javascript" src="./script/init.js"></script>
+  		{% block script %}
+  		{% endblock script %}
   		<link rel="stylesheet" href="./css/style.css" type="text/css">
-  		<title>{% block title %}Fundacja Taki Jestem - {{ caption }} {% endblock %}</title>
-  		{% block head %}
-  		{% endblock %}
+  		<link rel="stylesheet" href="./css/scrollbar.css" type="text/css">
+  		{% block style %}
+  		{% endblock style %}
+  		<title>Fundacja Taki Jestem</title>
 	</head>
 	<body class="mainFont">
 		<div id="header">
@@ -24,9 +28,10 @@
 	    	</div>
 	    </div>
 	    <div id="headerSeparator"></div>
-	    <div id="contentWrapper">
-	    	<div id="content" class="center">
-	    		{% block content %}{% endblock %}
+	    <div id="contentWrapper" class="center">
+	    	<div id="content">
+	    		{% block content %}
+  				{% endblock content %}
 	    	</div>
 	    </div>
 	    <div id="footer">

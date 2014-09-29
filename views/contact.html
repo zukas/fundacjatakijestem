@@ -1,4 +1,11 @@
-<div class="address">
+{% extends 'layout.html' %}
+
+{% block style %}
+<link rel="stylesheet" href="./css/contact.css" type="text/css"/>
+{% endblock %}
+
+{% block content %}
+<div id="address">
 	<div class="split">
 	Fundacja TAKI JESTEM
 	</div>
@@ -9,7 +16,7 @@
 	02-785 Warszawa
 	</div>
 </div>
-<div class="contacts">
+<div id="contacts">
 	<div class="contact">
 		<div class="general">
 			<div class="icon"></div>
@@ -49,3 +56,4 @@
 		</div>
 	</div>
 </div>
+{% endblock %}

@@ -1,4 +1,10 @@
-<link rel="stylesheet" href="./css/home.css" type="text/css">
+{% extends 'layout.html' %}
+
+{% block style %}
+<link rel="stylesheet" href="./css/home.css" type="text/css"/>
+{% endblock %}
+
+{% block content %}
 <div id="text">
 	<div class="split"></div>		
 	<div class="split">
@@ -40,3 +46,4 @@
 	Nr konta bankowego: Bank Pekao S.A., 98 1240 6250 1111 0010 5425 9325 
 	</div>
 </div>
+{% endblock %}

@@ -1,3 +1,16 @@
+var express = require('express'),
+	path = require('path'),
+	favicon = require('serve-favicon'),
+	logger = require('morgan'),
+	methodOverride = require('method-override'),
+	session = require('express-session'),
+	bodyParser = require('body-parser'),
+	multer = require('multer'),
+	util = require('util'),
+	swig = require('swig'),
+	errorHandler = require('errorhandler'),
+	app = express();
+
 global.async = function () {
 	if(arguments.length === 0 && typeof arguments[0] !== "function") throw "Bad argument to async";
 	var _args = [],
@@ -9,28 +22,27 @@ global.async = function () {
 	});
 };
 
+global.makePath = function () {
+	var _args = [process.cwd()],
+		i;
+	for(i in arguments) _args.push(arguments[i]);
 
-var express = require('express'),
-	routes = require('./routes'),
-	path = require('path'),
-	favicon = require('serve-favicon'),
-	logger = require('morgan'),
-	methodOverride = require('method-override'),
-	session = require('express-session'),
-	bodyParser = require('body-parser'),
-	multer = require('multer'),
-	errorHandler = require('errorhandler'),
-	swig = require('swig'),
-	home = require('./routes/home'),
-	about = require('./routes/about'),
-	gallery = require('./routes/gallery'),
-	events = require('./routes/events'),
-	contact = require('./routes/contact'),
-	app = express();
+	return path.join.apply(this, _args);
+};
+
+global.log = function (text) {
+	util.log(util.inspect(text, { showHidden: false, depth: null, colors : true }));
+};
+
+global.isDev = function () {
+	return 'development' === app.get('env');
+}
 
 
-app.engine('html', swig.renderFile);
+var routes = require('./routes');
+
 // all environments
+app.engine('html', swig.renderFile);
 app.set('port', process.env.PORT || 3000);
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'html');
@@ -46,29 +58,20 @@ app.use(multer());
 app.use(express.static(path.join(__dirname, 'public')));
 
 // development only
-if ('development' == app.get('env')) {
+if (isDev()) {
   app.use(errorHandler());
 }
 
-app.get('/', routes.index);
-app.get('*', function (req, res) {
-	res.redirect('/');
-});
+app.get('/:page', routes.index);
+// app.get('*', function (req, res) {
+// 	log(req.path);
+// 	res.redirect('/home');
+// });
 
-console.log(home.load);
-console.log(about.load);
-console.log(gallery.load);
-console.log(events.load);
-console.log(contact.load);
-app.post('/', routes.pages);
-app.post('/home', home.load);
-app.post('/about', about.load);
-app.post('/gallery', gallery.load);
-app.post('/events', events.load);
-app.post('/contact', contact.load);
+
 
 require("./db").start(function () {
 	app.listen(app.get('port'), function(){
-	  console.log('Express server listening on port ' + app.get('port'));
+	  log('Express server listening on port ' + app.get('port'));
 	});
 });

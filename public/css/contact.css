@@ -1,23 +1,21 @@
-.contactPage{
-	margin-left: 20px;
-}
 
-.contactPage .address {
+
+#address {
 	margin-top:10px;
 	margin-bottom: 30px;
 }
 
-.contactPage .address .split{
+#address .split{
 	font-size: 16px;
 }
 
-.contactPage .contact{
-	margin-bottom: 30px;
+#contacts .contact{
+	margin-top: 30px;
 }
 
-.contactPage .contact .name,
-.contactPage .contact .phone, 
-.contactPage .contact .email {
+.contact .name,
+.contact .phone, 
+.contact .email {
 	height: 32px;
 	margin-top: 8px;
 }
