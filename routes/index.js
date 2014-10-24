@@ -17,3 +17,9 @@ exports.index = function(req, res){
 exports.load = function(req, res) {
 	res.render(req.body.file);
 };
+
+exports.resource = function (req, res) {
+	engine.resource(req.body.resource, function (result) {
+		res.send(result);
+	});
+};	

@@ -2,7 +2,16 @@
 
 #address {
 	margin-top:10px;
+	margin-bottom: 10px;
+	/*display: inline-block;*/
+}
+
+#details {
+	/*margin-top: 10px;*/
 	margin-bottom: 30px;
+	/*display: inline-block;*/
+	/*margin-left: 70px;*/
+	font-size: 0.9em;
 }
 
 #address .split{

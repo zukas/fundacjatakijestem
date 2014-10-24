@@ -1,0 +1,105 @@
+{
+	"resources" : {
+		"categories" : {
+			"images" : [ 
+			{ "id" : "category1", "src" : "/images/image_1.jpg", "text" : "Event 1" },
+			{ "id" : "category2", "src" : "/images/image_2.jpg", "text" : "Event 2" },
+			{ "id" : "category3", "src" : "/images/image_3.jpg", "text" : "Event 3" },
+			{ "id" : "category4", "src" : "/images/image_4.jpg", "text" : "Event 4" },
+			{ "id" : "category5", "src" : "/images/image_5.jpg", "text" : "Event 5" },
+			{ "id" : "category6", "src" : "/images/image_6.jpg", "text" : "Event 6" },
+			{ "id" : "category7", "src" : "/images/image_7.jpg", "text" : "Event 7" },
+			{ "id" : "category8", "src" : "/images/image_8.jpg", "text" : "Event 8" }
+			]
+		},
+		"category1" : {
+			"images" : [ 
+			{ "id" : "img1", "src" : "/images/image_1_big.jpg" },
+			{ "id" : "img2", "src" : "/images/image_2_big.jpg" },
+			{ "id" : "img3", "src" : "/images/image_3_big.jpg" },
+			{ "id" : "img4", "src" : "/images/image_4_big.jpg" },
+			{ "id" : "img5", "src" : "/images/image_5_big.jpg" },
+			{ "id" : "img6", "src" : "/images/image_6_big.jpg" },
+			{ "id" : "img7", "src" : "/images/image_7_big.jpg" },
+			{ "id" : "img8", "src" : "/images/image_8_big.jpg" },
+			{ "id" : "img9", "src" : "/images/image_9_big.jpg" },
+			{ "id" : "img10", "src" : "/images/image_10_big.jpg" }
+			]
+		},
+		"category2" : {
+			"images" : [ 
+			{ "id" : "img1", "src" : "/images/image_1_big.jpg" },
+			{ "id" : "img3", "src" : "/images/image_3_big.jpg" },
+			{ "id" : "img4", "src" : "/images/image_4_big.jpg" },
+			{ "id" : "img5", "src" : "/images/image_5_big.jpg" },
+			{ "id" : "img6", "src" : "/images/image_6_big.jpg" },
+			{ "id" : "img7", "src" : "/images/image_7_big.jpg" },
+			{ "id" : "img8", "src" : "/images/image_8_big.jpg" },
+			{ "id" : "img10", "src" : "/images/image_10_big.jpg" }
+			]
+		},
+		"category3" : {
+			"images" : [ 
+			{ "id" : "img2", "src" : "/images/image_2_big.jpg" },
+			{ "id" : "img3", "src" : "/images/image_3_big.jpg" },
+			{ "id" : "img4", "src" : "/images/image_4_big.jpg" },
+			{ "id" : "img5", "src" : "/images/image_5_big.jpg" },
+			{ "id" : "img6", "src" : "/images/image_6_big.jpg" },
+			{ "id" : "img7", "src" : "/images/image_7_big.jpg" },
+			{ "id" : "img8", "src" : "/images/image_8_big.jpg" },
+			{ "id" : "img10", "src" : "/images/image_10_big.jpg" }
+			]
+		},
+		"category4" : {
+			"images" : [ 
+			{ "id" : "img1", "src" : "/images/image_1_big.jpg" },
+			{ "id" : "img2", "src" : "/images/image_2_big.jpg" },
+			{ "id" : "img6", "src" : "/images/image_6_big.jpg" },
+			{ "id" : "img7", "src" : "/images/image_7_big.jpg" },
+			{ "id" : "img8", "src" : "/images/image_8_big.jpg" },
+			{ "id" : "img9", "src" : "/images/image_9_big.jpg" },
+			{ "id" : "img10", "src" : "/images/image_10_big.jpg" }
+			]
+		},
+		"category5" : {
+			"images" : [ 
+			{ "id" : "img1", "src" : "/images/image_1_big.jpg" },
+			{ "id" : "img2", "src" : "/images/image_2_big.jpg" },
+			{ "id" : "img3", "src" : "/images/image_3_big.jpg" },
+			{ "id" : "img4", "src" : "/images/image_4_big.jpg" },
+			{ "id" : "img5", "src" : "/images/image_5_big.jpg" },
+			{ "id" : "img9", "src" : "/images/image_9_big.jpg" },
+			{ "id" : "img10", "src" : "/images/image_10_big.jpg" }
+			]
+		},
+		"category6" : {
+			"images" : [ 
+			{ "id" : "img1", "src" : "/images/image_1_big.jpg" },
+			{ "id" : "img2", "src" : "/images/image_2_big.jpg" },
+			{ "id" : "img3", "src" : "/images/image_3_big.jpg" },
+			{ "id" : "img4", "src" : "/images/image_4_big.jpg" },
+			{ "id" : "img5", "src" : "/images/image_5_big.jpg" },
+			{ "id" : "img6", "src" : "/images/image_6_big.jpg" }
+			]
+		},
+		"category7" : {
+			"images" : [ 
+			{ "id" : "img6", "src" : "/images/image_6_big.jpg" },
+			{ "id" : "img7", "src" : "/images/image_7_big.jpg" },
+			{ "id" : "img8", "src" : "/images/image_8_big.jpg" },
+			{ "id" : "img9", "src" : "/images/image_9_big.jpg" },
+			{ "id" : "img10", "src" : "/images/image_10_big.jpg" }
+			]
+		},
+		"category8" : {
+			"images" : [ 
+			{ "id" : "img1", "src" : "/images/image_1_big.jpg" },
+			{ "id" : "img4", "src" : "/images/image_4_big.jpg" },
+			{ "id" : "img5", "src" : "/images/image_5_big.jpg" },
+			{ "id" : "img6", "src" : "/images/image_6_big.jpg" },
+			{ "id" : "img7", "src" : "/images/image_7_big.jpg" },
+			{ "id" : "img8", "src" : "/images/image_8_big.jpg" }
+			]
+		}
+	}
+}

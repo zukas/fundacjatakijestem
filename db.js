@@ -1,9 +1,7 @@
 var mongo = require("mongodb"),
-	grid = require('gridfs-stream'),
 	events = {};
 
 exports.db = null;
-exports.gfs = null;
 
 exports.start = function (callback) {
 
@@ -14,14 +12,14 @@ exports.start = function (callback) {
 			if (index < list.length) {
 				db.createCollection(list[index], {}, function (err2, collection) {
 					if(err2) throw err2;
+					exports.db[ list[index] ] = collection;
 					async(create, index + 1, list, done);
 				});	
 			} else {
 				async(done);
 			}	
 		};
-		async(create, 0, ["home", "about", "gallery", "events", "contact"], function () {
-			exports.gfs = grid(db, mongo);
+		async(create, 0, ["resources"], function () {
 			async(callback);
 			callback = null;
 			for(var i in events['started'] || [])

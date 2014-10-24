@@ -1,10 +1,7 @@
 #content #text {
-	margin: 0px;
 	display: inline-block;
 	position: relative;
-	width: 400px;
-	height: 339px;
-	margin-left: 250px;
+	width: 100%;
 }
 
 #content #text .split{
@@ -18,8 +15,8 @@
 	display: block;
 	position: relative;
 	margin-top: auto;
-	height: auto;
-	bottom: 0px;
+	/*height: auto;*/
+	/*bottom: 0px;*/
 }
 
 #content #charityInfo .split{
