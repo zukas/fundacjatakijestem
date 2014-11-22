@@ -12,8 +12,8 @@ function predicate(index, list, items, done) {
 	    $(tmp).load(function () {
 	    	image.setAttribute('originalWidth', this.width);
 	    	image.setAttribute('originalHeight', this.height);
-	    	image.setAttribute("height", 300);
-	    	image.setAttribute("width", (this.width / this.height) * 300);
+	    	image.setAttribute("height", 250);
+	    	image.setAttribute("width", (this.width / this.height) * 250);
 	    	tmp = null;
 	    	items.push(item);
 		    predicate(index + 1, list, items, done);
@@ -84,14 +84,14 @@ function generateCategories (data) {
 				image = document.createElement('img'),
 				text = document.createElement('div');
 
-			category.setAttribute("class", "categoryWrapper");
+			category.setAttribute("class", "categoryWrapper " + (i % 2 == 0 ? 'tiltEven' : 'tiltOdd'));
 			item.setAttribute("id", data[i].id);
-			item.setAttribute('class', 'category ' + (i % 2 == 0 ? 'tiltEven' : 'tiltOdd'));
+			item.setAttribute('class', 'category');
 			image.setAttribute('src', data[i].src);
 			item.appendChild(image);
 			category.appendChild(item);
 
-			text.setAttribute('class', "caption text strong");
+			text.setAttribute('class', "caption textinv strong");
 			text.innerHTML = data[i].text;
 			category.appendChild(text);
 

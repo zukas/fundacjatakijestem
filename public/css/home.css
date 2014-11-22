@@ -1,25 +1,28 @@
-#content #text {
-	display: inline-block;
-	position: relative;
+.postContent {
+	display: table-cell;
+	text-align: left;
+	font-size: 0.9em;
 	width: 100%;
 }
 
-#content #text .split{
-	text-align: center !important;
-	font-size: 15px;
-	font-style: italic;
-	font-weight: bold;
+.post .img {
+	max-width: 25%;
+	float: left;
+	display: table-cell;
+	margin-right: 2em;
 }
 
-#content #charityInfo {
-	display: block;
-	position: relative;
-	margin-top: auto;
-	/*height: auto;*/
-	/*bottom: 0px;*/
+.post .date {
+	margin-bottom : 20px;
+	text-align: right;
+	color: #777;
+	font-size: 0.8em;
 }
 
-#content #charityInfo .split{
-	color: #888;
-	font-size: 16px;
+.post {
+	padding-bottom: 30px;
+}
+
+.post:last-child {
+	padding-bottom: 0px;
 }

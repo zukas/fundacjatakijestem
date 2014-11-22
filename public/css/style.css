@@ -60,14 +60,14 @@ body {
 	min-width: 700px;
 	height: 100%;
 	min-height: 500px;
-	background-image: url(/images/bg.jpg);
+	background-image: url(/images/bg.png);
 	background-repeat: repeat;
 	font-family: "Helvetica", "sans-serif" !important;
 	
 }
 
 .center {
-	width: 700px;
+	width: 900px;
 	margin:0px auto; 
 	padding:0px;
 }
@@ -75,7 +75,7 @@ body {
 #header {
 	margin: 0px auto 0px auto;
 	height: 70px;
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid #aaa;
 }
 
 #headerSeparator {
@@ -121,17 +121,21 @@ body {
 	color: #343433;
 }
 
-#slogan span.p1{
+span.p1{
 	color: #343433;
+	font-style: italic;
+	font-weight: bold;
 }
 
-#slogan span.p2{
+span.p2{
 	color: #f7941e;
+	font-style: italic;
+	font-weight: bold;
 }
 
 
 #navigation {
-	width: 500px;
+	width: 700px;
 	height: 70px;
 	padding: 0px;
 	position: absolute;
@@ -140,8 +144,8 @@ body {
 
 #navigation .nav {
 	border:none;
-	width: 80px;
-	height: 30px;
+	width: 120px;
+	height: 40px;
 	color: #343433;
 	font-size: 14px;
 	background: none;
@@ -171,7 +175,7 @@ body {
 
 #footer{
 	width: 100%;
-	border-top: 1px solid #ccc;
+	border-top: 1px solid #aaa;
 	margin-top: auto;
 	margin-bottom: 0px;
 	padding-top: 10px;
@@ -203,6 +207,14 @@ body {
 	text-shadow: 1px 1px 0px #fff;
 }
 
+.textinv{
+	line-height: 1.8em;
+	min-height: 1em;
+	word-spacing: 3px;
+	color: #fff;
+	text-shadow: 1px 1px 0px #343433;
+}
+
 .text strong{
 	font-weight: bold;
 	
@@ -210,4 +222,50 @@ body {
 
 .strong{
 	font-weight: bold;
+}
+
+.pictureFrame {
+	background-color: white;
+	background-image: url("/images/autum.jpeg");
+	background-repeat: no-repeat;
+}
+
+
+#backPic1, #backPic2, #backPic3 {
+	width: 250px;
+	height: auto;
+	position: absolute;
+	padding: 20px;
+	border: 1px solid #343433;
+}
+
+#backPic1 {
+	top: 370px;
+	left: 160px;
+	transform: rotate(3deg);
+	z-index: 1;
+}
+
+#backPic2 {
+	top: 550px;
+	left: 100px;
+	transform: rotate(-6deg);
+	z-index: 0;
+}
+
+#backPic3 {
+	top: 110px;
+	left: 80px;
+	transform: rotate(10deg);
+	z-index: 0;
+}
+
+#backPic1 img, #backPic2 img, #backPic3 img {
+	width: 100%;
+	height: auto;
+	border: 1px solid #343433;
+}
+
+img.previewImage {
+	cursor : zoom-in;
 }

@@ -1,0 +1,22 @@
+
+a.media {
+	display:inline-block;
+	height: 32px;
+	line-height: 32px;
+	padding-left: 40px;
+	margin-bottom: 30px;
+	background: transparent url("../images/icon_pdf.png") center left no-repeat;
+}
+
+.sponsor {
+	display:inline-block;
+	height: auto;
+	width: auto;
+	padding-top: 28px;
+}
+
+#barentz
+{
+	background: transparent url("../images/sponsors/barentz.png") no-repeat;
+	background-size: 100% auto;
+}

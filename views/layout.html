@@ -5,26 +5,38 @@
   		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   		<script type="text/javascript" src="./script/brickwall.js"></script>
   		<script type="text/javascript" src="./script/jquery-scrollto.js"></script>
-  		<script type="text/javascript" src="./script/init.js"></script>
+  		<script type="text/javascript" src="./script/jquery.media.js"></script>
+  		<script type="text/javascript" src="./script/jquery.magnific-popup.js"></script>
   		{% block script %}
   		{% endblock script %}
-  		<link rel="stylesheet" href="./css/style.css" type="text/css">
+  		<script type="text/javascript" src="./script/init.js"></script>
+  		
+  		<link rel="stylesheet" href="./css/magnific-popup.css" type="text/css">
   		{% block style %}
   		{% endblock style %}
-  		<title>Fundacja Taki Jestem</title>
+  		<link rel="stylesheet" href="./css/style.css" type="text/css">
+  		<title>Fundacja TAKI JESTEM</title>
 	</head>
 	<body class="mainFont">
+		<div id="backPic1" class="pictureFrame backdrop">
+			<img src="images/322.jpg">
+		</div>
+		<div id="backPic2" class="pictureFrame backdrop">
+			<img src="images/2041.jpg">
+		</div>
+		<div id="backPic3" class="pictureFrame backdrop">
+			<img src="images/122.jpg">
+		</div>
 		<div id="header">
 			<div class="center">
 		    	<div id="logo"></div>
-		    	<div id="slogan"><span class="p1 text">Fundacja </span><span class="p2 text">Taki Jestem</span></div>
+		    	<div id="slogan"><span class="p1 text">Fundacja </span><span class="p2 text">TAKI JESTEM</span></div>
 		    	<div id="words" class="text">Aktywizowanie i wspieranie osób z niepełnosprawnością intelektualną</div>
 		    	<div id="navigation">
-		    		<input type="button" class="nav text" id="home" value="Home"></input>
-		    		<input type="button" class="nav text" id="about" value="About"></input>
-		    		<input type="button" class="nav text" id="gallery" value="Gallery"></input>
-		    		<input type="button" class="nav text" id="events" value="Events"></input>
-		    		<input type="button" class="nav text" id="contact" value="Contact"></input>
+		    		<input type="button" class="nav text strong" id="home" value="Strona Główna"></input>
+		    		<input type="button" class="nav text strong" id="about" value="O Nas"></input>
+		    		<input type="button" class="nav text strong" id="events" value="Wydarzenia"></input>
+		    		<input type="button" class="nav text strong" id="contact" value="Kontakt"></input>
 		    	</div>
 	    	</div>
 	    </div>
@@ -37,7 +49,7 @@
 	    </div>
 	    <div id="footer">
 	    	<div class="center">
-	    		<div class="text">Fundacja Taki Jestem&reg; (KRS: 0000475152)</div>
+	    		<div class="text"><span class="p1 text strong">Fundacja </span><span class="p2 text strong">TAKI JESTEM</span>&reg; (KRS: 0000475152)</div>
 	    		<div class="text">ul. Puszczyka 15 lok 18</div>
 	    		<div class="text">02-785 Warszawa</div>
 	    		<div class="text"><strong>Bank Pekao S.A., 98 1240 6250 1111 0010 5425 9325</strong></div>

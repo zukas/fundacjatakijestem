@@ -1,0 +1,86 @@
+
+.eventWrapper {
+	display: block;
+	position: relative;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-top: 1px solid #f7941e;
+	border-bottom: 1px solid #343433;
+	opacity: 0.9;
+}
+
+.eventWrapper:hover {
+	opacity: 1;
+}
+
+.eventWrapper:last-child {
+	border-bottom: none;
+}
+
+.eventWrapper:first-child {
+	padding-top: 0px;
+	border-top: none;
+}
+
+.eventTitle {
+	margin-bottom: 10px;
+	font-size: 1.5em;
+	cursor: pointer;
+}
+
+.eventWrapper:hover .eventTitle {
+	color: #f7941e;
+}
+
+.eventLogo {
+	display: inline;
+	margin: 2em 2em 2em 2em;
+	pointer-events: none;
+}
+
+.eventWrapper:nth-child(even) .eventLogo {
+	float: right;
+}
+
+.eventWrapper:nth-child(odd) .eventLogo {
+	float: left;
+}
+
+.eventText {
+	display:  inline-block;
+	text-align: justify;
+}
+
+#brickGallery {
+	margin-top : 50px;
+	display: block;
+	position: relative;
+	box-sizing: border-box;
+}
+
+.galleryItem img {
+	overflow: hidden;
+	border: 1px solid #f7941e;
+}		
+
+.galleryItem {
+	padding: 20px;
+	border: 1px solid #f7941e;
+	background: #343433;
+	box-sizing: border-box;
+}
+
+.tiltOdd {
+	-webkit-transform : rotate(1deg);
+	-moz-transform : rotate(1deg);
+	-ms-transform : rotate(1deg);
+	transform : rotate(1deg);
+}
+
+.tiltEven {
+	-webkit-transform : rotate(-1deg);
+	-moz-transform : rotate(-1deg);
+	-ms-transform : rotate(-1deg);
+	transform : rotate(-1deg);
+}
+
