@@ -10,7 +10,7 @@ function updatePage()
 	}
 }
 
-$( document ).ready(function () {
+$( window ).bind("load", function () {
 
 	$("input.nav").click(function () {
 		window.location.href = '/' + this.id;

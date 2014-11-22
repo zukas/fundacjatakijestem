@@ -86,7 +86,7 @@ function populate (id) {
 
 
 
-$( document ).ready(function () {
+$( window ).bind("load", function () {
 	$(".eventWrapper .eventTitle").click(function () {
 		var _id = $(this).parent().attr("id");
 		if($("#brickGallery").length)
