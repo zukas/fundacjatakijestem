@@ -20,14 +20,14 @@ APP=server.js
 
 case "$1" in
   start)
-    sudo  /usr/bin/node $APP_PATH/$APP
+    sudo /usr/bin/node $APP_PATH/$APP > /dev/null 2>&1 &
 	;;
   stop)
     sudo killall -9 node nodejs
 	;;
   restart)
-    sudo killall -9 node nodejs
-    sudo  /usr/bin/node $APP_PATH/$APP
+    sudo killall -9 node nodejs 
+    sudo /usr/bin/node $APP_PATH/$APP > /dev/null 2>&1 &
 	;;
   *)
 	echo "Usage: /etc/init.d/ftj {start|stop|restart}"
