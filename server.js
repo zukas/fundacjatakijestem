@@ -18,10 +18,10 @@ global.isDev = function () {
 
 // all environments
 app.engine('html', swig.renderFile);
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 80);
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'html');
-app.set('view cache', false);
+app.set('view cache', true);
 app.use(favicon(__dirname + '/public/favicon.ico'));
 app.use(logger('dev'));
 app.use(methodOverride());
