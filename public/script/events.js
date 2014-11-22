@@ -7,17 +7,15 @@ function predicate(index, list, items, done) {
 		image.setAttribute('src', list[index].src);
 		image.setAttribute('class', 'previewImage');
 		item.appendChild(image);
-		var tmp = new Image();
-	    tmp.src = list[index].src;
-	    $(tmp).load(function () {
+
+		$(image).load(function(){
+	     	image.setAttribute("width", (this.width / this.height) * 250);
+			image.setAttribute("height", 250);
 	    	image.setAttribute('originalWidth', this.width);
-	    	image.setAttribute('originalHeight', this.height);
-	    	image.setAttribute("height", 250);
-	    	image.setAttribute("width", (this.width / this.height) * 250);
-	    	tmp = null;
-	    	items.push(item);
+	     	image.setAttribute('originalHeight', this.height);
+	     	items.push(item);
 		    predicate(index + 1, list, items, done);
-	    });
+		});
 	} else {
 		done(items);
 	}
@@ -35,7 +33,6 @@ function populate (id) {
 
 				$("#brickGallery").html(items);
 				$("#brickGallery").brickwall();	
-
 
 				$("img.previewImage").click(function () {
 					$.magnificPopup.open({
