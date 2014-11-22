@@ -1,0 +1,37 @@
+#! /bin/sh
+
+### BEGIN INIT INFO
+# Provides:          ftj
+# Required-Start:    $remote_fs $syslog
+# Required-Stop:     $remote_fs $syslog
+# Should-Start:      $named
+# Default-Start:     2 3 4 5
+# Default-Stop:      
+# Short-Description: Website
+# Description:       Fundacja TAKI JESTEM website
+### END INIT INFO
+
+set -e
+
+# /etc/init.d/ftj: start and stop the ftj service
+
+APP_PATH=/usr/app/ftj
+APP=server.js
+
+case "$1" in
+  start)
+    sudo  /usr/bin/node $APP_PATH/$APP
+	;;
+  stop)
+    sudo killall -9 node nodejs
+	;;
+  restart)
+    sudo killall -9 node nodejs
+    sudo  /usr/bin/node $APP_PATH/$APP
+	;;
+  *)
+	echo "Usage: /etc/init.d/ftj {start|stop|restart}"
+	exit 1
+esac
+
+exit 0

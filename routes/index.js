@@ -1,9 +1,6 @@
 var engine = require('../engines/engine');
 
 exports.index = function(req, res){
-
-	log(req.params);
-
 	var page = ({
 		about : 'about.html',
 		gallery : 'gallery.html',
