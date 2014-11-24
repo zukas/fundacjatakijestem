@@ -86,8 +86,8 @@ function populate (id) {
 
 
 $( window ).bind("load", function () {
-	$(".eventWrapper .eventTitle").click(function () {
-		var _id = $(this).parent().attr("id");
+	$(".eventTitle, .eventLogo").click(function () {
+		var _id = $(this).closest(".eventWrapper").attr("id");
 		if($("#brickGallery").length)
 		{
 			if($("#" + _id).hasClass("selected"))
