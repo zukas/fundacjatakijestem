@@ -9,13 +9,10 @@ function predicate(index, list, items, done) {
 		item.appendChild(image);
 
 		$(image).load(function(){
-	  //   	image.setAttribute('originalWidth', this.width);
-	  //    	image.setAttribute('originalHeight', this.height);
-	  //    	image.setAttribute("width", Math.round((this.width / this.height) * 185));
-			// image.setAttribute("height", 185);
 			item.setAttribute("data-w", Math.round((this.width / this.height) * 250));
 			item.setAttribute("data-h", 250);
 	     	items.push(item);
+	     	App.updateLoder(index + 1);
 		    predicate(index + 1, list, items, done);
 		});
 	} else {
@@ -26,6 +23,7 @@ function predicate(index, list, items, done) {
 function populate (id) {
 	var callback = function (data) {
 		if(!data.error && data.result) {
+			App.showLoader((data.result.images || []).length);
 			predicate(0, data.result.images, [], function (items) {
 				if(!$("#brickGallery").length) {
 					var list = document.createElement('div');
@@ -72,7 +70,7 @@ function populate (id) {
 			});
 		}
 	};
-
+	App.showLoader();
 	$.ajax({
 		type: "POST",
 		url: "/resource",

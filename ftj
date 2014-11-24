@@ -28,7 +28,7 @@ case "$1" in
   ;;
   restart)
       sudo killall -9 node
-      echo FTK service stoped
+      echo FTJ service stoped
       sleep 3
       sudo /usr/bin/node $APP_PATH/$APP > /dev/null 2>&1 &
       echo FTJ service started
