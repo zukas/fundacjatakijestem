@@ -30,7 +30,7 @@
 .eventLogo {
 	display: inline;
 	margin: 2em 2em 2em 2em;
-	pointer-events: none;
+	cursor: pointer;
 }
 
 .eventWrapper:nth-child(even) .eventLogo {
