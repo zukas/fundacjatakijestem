@@ -4,16 +4,60 @@
 		"selected_items":
 		[
 			[
+				"en",
+				"env"
+			],
+			[
+				"express",
+				"express-session"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"tab",
+				"table-column"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"paddi",
+				"padding-bottom"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
 				"back",
 				"background-size"
 			],
 			[
 				"wi",
 				"width"
-			],
-			[
-				"margin-",
-				"margin-top"
 			],
 			[
 				"padd",
@@ -60,10 +104,6 @@
 				"italic"
 			],
 			[
-				"fon",
-				"font-style"
-			],
-			[
 				"font",
 				"font-size"
 			],
@@ -82,14 +122,6 @@
 			[
 				"di",
 				"display"
-			],
-			[
-				"tex",
-				"text-align"
-			],
-			[
-				"tab",
-				"table-cell"
 			],
 			[
 				"mat",
@@ -172,42 +204,42 @@
 	"buffers":
 	[
 		{
-			"file": "public/css/events.css",
-			"settings":
-			{
-				"buffer_size": 602,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "views/layout.html",
-			"settings":
-			{
-				"buffer_size": 2372,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "views/events.html",
-			"settings":
-			{
-				"buffer_size": 4642,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "public/css/style.css",
-			"settings":
-			{
-				"buffer_size": 4100,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "public/script/init.js",
 			"settings":
 			{
-				"buffer_size": 562,
+				"buffer_size": 706,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/script/home.js",
+			"settings":
+			{
+				"buffer_size": 42,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/script/events.js",
+			"settings":
+			{
+				"buffer_size": 3136,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/script/about.js",
+			"settings":
+			{
+				"buffer_size": 42,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ftj",
+			"settings":
+			{
+				"buffer_size": 720,
 				"line_ending": "Unix"
 			}
 		}
@@ -240,31 +272,41 @@
 	"expanded_folders":
 	[
 		"/home/zukas/repos/fundacjatakijestem",
+		"/home/zukas/repos/fundacjatakijestem/config",
+		"/home/zukas/repos/fundacjatakijestem/node_modules/connect",
+		"/home/zukas/repos/fundacjatakijestem/node_modules/connect/lib",
+		"/home/zukas/repos/fundacjatakijestem/node_modules/express/lib",
+		"/home/zukas/repos/fundacjatakijestem/node_modules/express/lib/middleware",
 		"/home/zukas/repos/fundacjatakijestem/public",
 		"/home/zukas/repos/fundacjatakijestem/public/css",
 		"/home/zukas/repos/fundacjatakijestem/public/docs",
-		"/home/zukas/repos/fundacjatakijestem/public/images/sponsors",
 		"/home/zukas/repos/fundacjatakijestem/public/script",
-		"/home/zukas/repos/fundacjatakijestem/views"
+		"/home/zukas/repos/fundacjatakijestem/routes"
 	],
 	"file_history":
 	[
-		"/home/zukas/repos/fundacjatakijestem/routes/index.js",
-		"/home/zukas/repos/fundacjatakijestem/public/css/about.css",
-		"/home/zukas/repos/fundacjatakijestem/views/about.html",
-		"/home/zukas/repos/fundacjatakijestem/public/script/about.js",
-		"/home/zukas/repos/fundacjatakijestem/views/gallery.html",
-		"/home/zukas/repos/fundacjatakijestem/public/css/gallery.css",
-		"/home/zukas/repos/fundacjatakijestem/server.js",
-		"/home/zukas/repos/fundacjatakijestem/public/script/init.js",
-		"/home/zukas/repos/fundacjatakijestem/public/script/gallery.js",
-		"/home/zukas/repos/fundacjatakijestem/public/css/events.css",
-		"/home/zukas/repos/fundacjatakijestem/views/events.html",
-		"/home/zukas/repos/fundacjatakijestem/public/css/home.css",
 		"/home/zukas/repos/fundacjatakijestem/public/css/style.css",
-		"/home/zukas/repos/fundacjatakijestem/views/layout.html",
+		"/home/zukas/repos/fundacjatakijestem/ftj",
+		"/home/zukas/repos/fundacjatakijestem/routes/index.js",
+		"/home/zukas/repos/fundacjatakijestem/server.js",
+		"/home/zukas/repos/fundacjatakijestem/package.json",
+		"/home/zukas/repos/fundacjatakijestem/views/about.html",
+		"/home/zukas/repos/fundacjatakijestem/views/contact.html",
 		"/home/zukas/repos/fundacjatakijestem/views/home.html",
+		"/home/zukas/repos/fundacjatakijestem/views/layout.html",
+		"/home/zukas/repos/fundacjatakijestem/public/script/about.js",
+		"/home/zukas/repos/fundacjatakijestem/views/events.html",
 		"/home/zukas/repos/fundacjatakijestem/public/script/events.js",
+		"/home/zukas/repos/fundacjatakijestem/public/css/magnific-popup.css",
+		"/home/zukas/repos/fundacjatakijestem/public/css/home.css",
+		"/home/zukas/repos/fundacjatakijestem/public/css/gallery.css",
+		"/home/zukas/repos/fundacjatakijestem/public/css/events.css",
+		"/home/zukas/repos/fundacjatakijestem/public/css/contact.css",
+		"/home/zukas/repos/fundacjatakijestem/public/css/about.css",
+		"/home/zukas/repos/fundacjatakijestem/public/script/init.js",
+		"/home/zukas/repos/fundacjatakijestem/public/script/home.js",
+		"/home/zukas/repos/fundacjatakijestem/views/gallery.html",
+		"/home/zukas/repos/fundacjatakijestem/public/script/gallery.js",
 		"/home/zukas/repos/fundacjatakijestem/db.js",
 		"/home/zukas/repos/fundacjatakijestem/engines/home.js",
 		"/home/zukas/repos/fundacjatakijestem/routes/home.js",
@@ -337,6 +379,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"funda",
+			"HASŁO: NA RATUNEK\n\n		 NA ZAKUP SPECJALISTYCZNEGO SPRZĘTU DLA DZIECIĘCEJ MEDYCYNY RATUNKOWEJ I GODNEJ OPIEKI MEDYCZNEJ SENIORÓW\n\n		Serdecznie zapraszamy na spotkanie w ramach 22 Finału WOŚP.\n\n		W programie spotkanie z bajarzem, warsztaty plastyczne, konkursy oraz inne atrakcje.\n\n		Całość poprowadzi Robert Janowski.\n\n\n		Organizatorami imprezy jest Ursynowski Szkolny Sztab Mandarynka,\n\n		młodzież z Gimnazjum nr 92 im. J.U. Niemcewicza oraz Fundacja TAKI JESTEM.\n\n		 \n\n		Ruszamy 12 stycznia o godz.15.00 w gimnazjum przy ul. Koncertowej 4.\n\n		Czekamy na Ciebie! \n\n		Do zobaczenia!!!!!!!!!!!\n		</div>",
 			"}",
 			"	background: transparent url(\"../images/icon_pdf.png\") center right no-repeat;\n",
 			"updateClientStatus",
@@ -372,138 +416,53 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "public/css/events.css",
+					"file": "public/script/init.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 602,
+						"buffer_size": 706,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								312,
+								312
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "views/layout.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2372,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								940,
-								940
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 51.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "views/events.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4642,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1435,
-								1435
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 459.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "public/css/style.css",
+					"buffer": 1,
+					"file": "public/script/home.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4100,
+						"buffer_size": 42,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3620,
-								3620
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": -0.0,
-						"translation.y": 3570.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "public/script/init.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 562,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								293,
-								293
+								38,
+								38
 							]
 						],
 						"settings":
@@ -514,7 +473,94 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "public/script/events.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3136,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								740,
+								740
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "public/script/about.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 42,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								38,
+								38
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "ftj",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 720,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								441,
+								441
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -522,7 +568,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 25.0
+		"height": 34.0
 	},
 	"input":
 	{

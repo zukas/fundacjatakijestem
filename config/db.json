@@ -1,104 +1,150 @@
 {
 	"resources" : {
-		"categories" : {
-			"images" : [ 
-			{ "id" : "category1", "src" : "/images/image_1.jpg", "text" : "Event 1" },
-			{ "id" : "category2", "src" : "/images/image_2.jpg", "text" : "Event 2" },
-			{ "id" : "category3", "src" : "/images/image_3.jpg", "text" : "Event 3" },
-			{ "id" : "category4", "src" : "/images/image_4.jpg", "text" : "Event 4" },
-			{ "id" : "category5", "src" : "/images/image_5.jpg", "text" : "Event 5" },
-			{ "id" : "category6", "src" : "/images/image_6.jpg", "text" : "Event 6" },
-			{ "id" : "category7", "src" : "/images/image_7.jpg", "text" : "Event 7" },
-			{ "id" : "category8", "src" : "/images/image_8.jpg", "text" : "Event 8" }
-			]
-		},
 		"category1" : {
 			"images" : [ 
-			{ "id" : "img1", "src" : "/images/image_1_big.jpg" },
-			{ "id" : "img2", "src" : "/images/image_2_big.jpg" },
-			{ "id" : "img3", "src" : "/images/image_3_big.jpg" },
-			{ "id" : "img4", "src" : "/images/image_4_big.jpg" },
-			{ "id" : "img5", "src" : "/images/image_5_big.jpg" },
-			{ "id" : "img6", "src" : "/images/image_6_big.jpg" },
-			{ "id" : "img7", "src" : "/images/image_7_big.jpg" },
-			{ "id" : "img8", "src" : "/images/image_8_big.jpg" },
-			{ "id" : "img9", "src" : "/images/image_9_big.jpg" },
-			{ "id" : "img10", "src" : "/images/image_10_big.jpg" }
+			{ "id" : "img1", "src" : "/images/events/RH_12-01-2014/1_s.jpg" },
+			{ "id" : "img1", "src" : "/images/events/RH_12-01-2014/2_s.jpg" },
+			{ "id" : "img1", "src" : "/images/events/RH_12-01-2014/4_s.jpg" },
+			{ "id" : "img1", "src" : "/images/events/RH_12-01-2014/5_s.jpg" },
+			{ "id" : "img1", "src" : "/images/events/RH_12-01-2014/6_s.jpg" },
+			{ "id" : "img1", "src" : "/images/events/RH_12-01-2014/7_s.jpg" },
+			{ "id" : "img1", "src" : "/images/events/RH_12-01-2014/8_s.jpg" },
+			{ "id" : "img1", "src" : "/images/events/RH_12-01-2014/9_s.jpg" },
+			{ "id" : "img1", "src" : "/images/events/RH_12-01-2014/10_s.jpg" },
+			{ "id" : "img1", "src" : "/images/events/RH_12-01-2014/11_s.jpg" },
+			{ "id" : "img1", "src" : "/images/events/RH_12-01-2014/12_s.jpg" },
+			{ "id" : "img1", "src" : "/images/events/RH_12-01-2014/13_s.jpg" },
+			{ "id" : "img1", "src" : "/images/events/RH_12-01-2014/14_s.jpg" },
+			{ "id" : "img1", "src" : "/images/events/RH_12-01-2014/15_s.jpg" },
+			{ "id" : "img1", "src" : "/images/events/RH_12-01-2014/16_s.jpg" },
+			{ "id" : "img1", "src" : "/images/events/RH_12-01-2014/17_s.jpg" },
+			{ "id" : "img1", "src" : "/images/events/RH_12-01-2014/18_s.jpg" },
+			{ "id" : "img1", "src" : "/images/events/RH_12-01-2014/19_s.jpg" },
+			{ "id" : "img1", "src" : "/images/events/RH_12-01-2014/20_s.jpg" },
+			{ "id" : "img1", "src" : "/images/events/RH_12-01-2014/21_s.jpg" },
+			{ "id" : "img1", "src" : "/images/events/RH_12-01-2014/22_s.jpg" },
+			{ "id" : "img1", "src" : "/images/events/RH_12-01-2014/23_s.jpg" },
+			{ "id" : "img1", "src" : "/images/events/RH_12-01-2014/24_s.jpg" },
+			{ "id" : "img1", "src" : "/images/events/RH_12-01-2014/25_s.jpg" },
+			{ "id" : "img1", "src" : "/images/events/RH_12-01-2014/26_s.jpg" },
+			{ "id" : "img1", "src" : "/images/events/RH_12-01-2014/27_s.jpg" },
+			{ "id" : "img1", "src" : "/images/events/RH_12-01-2014/28_s.jpg" },
+			{ "id" : "img1", "src" : "/images/events/RH_12-01-2014/29_s.jpg" },
+			{ "id" : "img1", "src" : "/images/events/RH_12-01-2014/30_s.jpg" },
+			{ "id" : "img1", "src" : "/images/events/RH_12-01-2014/31_s.jpg" },
+			{ "id" : "img1", "src" : "/images/events/RH_12-01-2014/32_s.jpg" },
+			{ "id" : "img1", "src" : "/images/events/RH_12-01-2014/33_s.jpg" },
+			{ "id" : "img1", "src" : "/images/events/RH_12-01-2014/34_s.jpg" },
+			{ "id" : "img1", "src" : "/images/events/RH_12-01-2014/35_s.jpg" }
 			]
 		},
 		"category2" : {
 			"images" : [ 
-			{ "id" : "img1", "src" : "/images/image_1_big.jpg" },
-			{ "id" : "img3", "src" : "/images/image_3_big.jpg" },
-			{ "id" : "img4", "src" : "/images/image_4_big.jpg" },
-			{ "id" : "img5", "src" : "/images/image_5_big.jpg" },
-			{ "id" : "img6", "src" : "/images/image_6_big.jpg" },
-			{ "id" : "img7", "src" : "/images/image_7_big.jpg" },
-			{ "id" : "img8", "src" : "/images/image_8_big.jpg" },
-			{ "id" : "img10", "src" : "/images/image_10_big.jpg" }
+			{ "id" : "img1", "src" : "/images/events/Teatr_Pantomimy_Teatr_Na_Woli_03-04-2014/P4031340_s.jpg" },
+			{ "id" : "img2", "src" : "/images/events/Teatr_Pantomimy_Teatr_Na_Woli_03-04-2014/P4031341_s.jpg" },
+			{ "id" : "img3", "src" : "/images/events/Teatr_Pantomimy_Teatr_Na_Woli_03-04-2014/P4031342_s.jpg" },
+			{ "id" : "img4", "src" : "/images/events/Teatr_Pantomimy_Teatr_Na_Woli_03-04-2014/P4031343_s.jpg" },
+			{ "id" : "img5", "src" : "/images/events/Teatr_Pantomimy_Teatr_Na_Woli_03-04-2014/P4031351_s.jpg" },
+			{ "id" : "img6", "src" : "/images/events/Teatr_Pantomimy_Teatr_Na_Woli_03-04-2014/P4031353_s.jpg" },
+			{ "id" : "img7", "src" : "/images/events/Teatr_Pantomimy_Teatr_Na_Woli_03-04-2014/P4031356_s.jpg" },
+			{ "id" : "img8", "src" : "/images/events/Teatr_Pantomimy_Teatr_Na_Woli_03-04-2014/P4031361_s.jpg" },
+			{ "id" : "img9", "src" : "/images/events/Teatr_Pantomimy_Teatr_Na_Woli_03-04-2014/P4031366_s.jpg" },
+			{ "id" : "img10", "src" : "/images/events/Teatr_Pantomimy_Teatr_Na_Woli_03-04-2014/P4031370_s.jpg" },
+			{ "id" : "img11", "src" : "/images/events/Teatr_Pantomimy_Teatr_Na_Woli_03-04-2014/P4031371_s.jpg" },
+			{ "id" : "img12", "src" : "/images/events/Teatr_Pantomimy_Teatr_Na_Woli_03-04-2014/P4031379_s.jpg" },
+			{ "id" : "img13", "src" : "/images/events/Teatr_Pantomimy_Teatr_Na_Woli_03-04-2014/P4031380_s.jpg" },
+			{ "id" : "img14", "src" : "/images/events/Teatr_Pantomimy_Teatr_Na_Woli_03-04-2014/P4031384_s.jpg" },
+			{ "id" : "img15", "src" : "/images/events/Teatr_Pantomimy_Teatr_Na_Woli_03-04-2014/P4031387_s.jpg" },
+			{ "id" : "img16", "src" : "/images/events/Teatr_Pantomimy_Teatr_Na_Woli_03-04-2014/P4031388_s.jpg" },
+			{ "id" : "img17", "src" : "/images/events/Teatr_Pantomimy_Teatr_Na_Woli_03-04-2014/P4031399_s.jpg" },
+			{ "id" : "img18", "src" : "/images/events/Teatr_Pantomimy_Teatr_Na_Woli_03-04-2014/P4031401_s.jpg" },
+			{ "id" : "img19", "src" : "/images/events/Teatr_Pantomimy_Teatr_Na_Woli_03-04-2014/P4031403_s.jpg" },
+			{ "id" : "img20", "src" : "/images/events/Teatr_Pantomimy_Teatr_Na_Woli_03-04-2014/P4031404_s.jpg" },
+			{ "id" : "img21", "src" : "/images/events/Teatr_Pantomimy_Teatr_Na_Woli_03-04-2014/P4031406_s.jpg" },
+			{ "id" : "img22", "src" : "/images/events/Teatr_Pantomimy_Teatr_Na_Woli_03-04-2014/P4031408_s.jpg" },
+			{ "id" : "img23", "src" : "/images/events/Teatr_Pantomimy_Teatr_Na_Woli_03-04-2014/P4031411_s.jpg" },
+			{ "id" : "img24", "src" : "/images/events/Teatr_Pantomimy_Teatr_Na_Woli_03-04-2014/P4031415_s.jpg" },
+			{ "id" : "img25", "src" : "/images/events/Teatr_Pantomimy_Teatr_Na_Woli_03-04-2014/P4031418_s.jpg" },
+			{ "id" : "img26", "src" : "/images/events/Teatr_Pantomimy_Teatr_Na_Woli_03-04-2014/P4031424_s.jpg" },
+			{ "id" : "img27", "src" : "/images/events/Teatr_Pantomimy_Teatr_Na_Woli_03-04-2014/P4031427_s.jpg" },
+			{ "id" : "img28", "src" : "/images/events/Teatr_Pantomimy_Teatr_Na_Woli_03-04-2014/P4031434_s.jpg" },
+			{ "id" : "img29", "src" : "/images/events/Teatr_Pantomimy_Teatr_Na_Woli_03-04-2014/P4031436_s.jpg" }
 			]
 		},
 		"category3" : {
 			"images" : [ 
-			{ "id" : "img2", "src" : "/images/image_2_big.jpg" },
-			{ "id" : "img3", "src" : "/images/image_3_big.jpg" },
-			{ "id" : "img4", "src" : "/images/image_4_big.jpg" },
-			{ "id" : "img5", "src" : "/images/image_5_big.jpg" },
-			{ "id" : "img6", "src" : "/images/image_6_big.jpg" },
-			{ "id" : "img7", "src" : "/images/image_7_big.jpg" },
-			{ "id" : "img8", "src" : "/images/image_8_big.jpg" },
-			{ "id" : "img10", "src" : "/images/image_10_big.jpg" }
+			{ "id" : "img1", "src" : "/images/events/Teatr_Baj_13-05-2014/P5130339_s.jpg" },
+			{ "id" : "img2", "src" : "/images/events/Teatr_Baj_13-05-2014/P5130369_s.jpg" },
+			{ "id" : "img3", "src" : "/images/events/Teatr_Baj_13-05-2014/P5130377_s.jpg" },
+			{ "id" : "img4", "src" : "/images/events/Teatr_Baj_13-05-2014/P5130380_s.jpg" },
+			{ "id" : "img5", "src" : "/images/events/Teatr_Baj_13-05-2014/P5130404_s.jpg" },
+			{ "id" : "img6", "src" : "/images/events/Teatr_Baj_13-05-2014/P5130423_s.jpg" },
+			{ "id" : "img7", "src" : "/images/events/Teatr_Baj_13-05-2014/P5130479_s.jpg" },
+			{ "id" : "img8", "src" : "/images/events/Teatr_Baj_13-05-2014/P5130486_s.jpg" },
+			{ "id" : "img9", "src" : "/images/events/Teatr_Baj_13-05-2014/P5130500_s.jpg" },
+			{ "id" : "img10", "src" : "/images/events/Teatr_Baj_13-05-2014/P5130530_s.jpg" },
+			{ "id" : "img11", "src" : "/images/events/Teatr_Baj_13-05-2014/P5130537_s.jpg" },
+			{ "id" : "img12", "src" : "/images/events/Teatr_Baj_13-05-2014/P5130547_s.jpg" },
+			{ "id" : "img13", "src" : "/images/events/Teatr_Baj_13-05-2014/P5130556_s.jpg" },
+			{ "id" : "img14", "src" : "/images/events/Teatr_Baj_13-05-2014/P5130557_s.jpg" },
+			{ "id" : "img15", "src" : "/images/events/Teatr_Baj_13-05-2014/P5130621_s.jpg" },
+			{ "id" : "img16", "src" : "/images/events/Teatr_Baj_13-05-2014/P5130623_s.jpg" },
+			{ "id" : "img17", "src" : "/images/events/Teatr_Baj_13-05-2014/P5130628_s.jpg" },
+			{ "id" : "img18", "src" : "/images/events/Teatr_Baj_13-05-2014/P5131479_s.jpg" },
+			{ "id" : "img19", "src" : "/images/events/Teatr_Baj_13-05-2014/P5131490_s.jpg" },
+			{ "id" : "img20", "src" : "/images/events/Teatr_Baj_13-05-2014/P5131495_s.jpg" }
 			]
 		},
 		"category4" : {
 			"images" : [ 
-			{ "id" : "img1", "src" : "/images/image_1_big.jpg" },
-			{ "id" : "img2", "src" : "/images/image_2_big.jpg" },
-			{ "id" : "img6", "src" : "/images/image_6_big.jpg" },
-			{ "id" : "img7", "src" : "/images/image_7_big.jpg" },
-			{ "id" : "img8", "src" : "/images/image_8_big.jpg" },
-			{ "id" : "img9", "src" : "/images/image_9_big.jpg" },
-			{ "id" : "img10", "src" : "/images/image_10_big.jpg" }
+			{ "id" : "img1", "src" : "/images/events/Teatr_Syrena_14-05-2014/P5140639_s.jpg" },
+			{ "id" : "img2", "src" : "/images/events/Teatr_Syrena_14-05-2014/P5140658_s.jpg" },
+			{ "id" : "img3", "src" : "/images/events/Teatr_Syrena_14-05-2014/P5140667_s.jpg" },
+			{ "id" : "img4", "src" : "/images/events/Teatr_Syrena_14-05-2014/P5140758_s.jpg" },
+			{ "id" : "img5", "src" : "/images/events/Teatr_Syrena_14-05-2014/P5140761_s.jpg" },
+			{ "id" : "img6", "src" : "/images/events/Teatr_Syrena_14-05-2014/P5140767_s.jpg" },
+			{ "id" : "img7", "src" : "/images/events/Teatr_Syrena_14-05-2014/P5141514_s.jpg" },
+			{ "id" : "img8", "src" : "/images/events/Teatr_Syrena_14-05-2014/P5141529_s.jpg" },
+			{ "id" : "img9", "src" : "/images/events/Teatr_Syrena_14-05-2014/P5141540_s.jpg" },
+			{ "id" : "img10", "src" : "/images/events/Teatr_Syrena_14-05-2014/P5141546_s.jpg" },
+			{ "id" : "img11", "src" : "/images/events/Teatr_Syrena_14-05-2014/P5141551_s.jpg" },
+			{ "id" : "img12", "src" : "/images/events/Teatr_Syrena_14-05-2014/P5141554_s.jpg" },
+			{ "id" : "img13", "src" : "/images/events/Teatr_Syrena_14-05-2014/P5141563_s.jpg" },
+			{ "id" : "img14", "src" : "/images/events/Teatr_Syrena_14-05-2014/P5141568_s.jpg" },
+			{ "id" : "img15", "src" : "/images/events/Teatr_Syrena_14-05-2014/P5141579_s.jpg" },
+			{ "id" : "img16", "src" : "/images/events/Teatr_Syrena_14-05-2014/P5141591_s.jpg" },
+			{ "id" : "img17", "src" : "/images/events/Teatr_Syrena_14-05-2014/P5141611_s.jpg" },
+			{ "id" : "img18", "src" : "/images/events/Teatr_Syrena_14-05-2014/P5141635_s.jpg" }
 			]
 		},
 		"category5" : {
 			"images" : [ 
-			{ "id" : "img1", "src" : "/images/image_1_big.jpg" },
-			{ "id" : "img2", "src" : "/images/image_2_big.jpg" },
-			{ "id" : "img3", "src" : "/images/image_3_big.jpg" },
-			{ "id" : "img4", "src" : "/images/image_4_big.jpg" },
-			{ "id" : "img5", "src" : "/images/image_5_big.jpg" },
-			{ "id" : "img9", "src" : "/images/image_9_big.jpg" },
-			{ "id" : "img10", "src" : "/images/image_10_big.jpg" }
-			]
-		},
-		"category6" : {
-			"images" : [ 
-			{ "id" : "img1", "src" : "/images/image_1_big.jpg" },
-			{ "id" : "img2", "src" : "/images/image_2_big.jpg" },
-			{ "id" : "img3", "src" : "/images/image_3_big.jpg" },
-			{ "id" : "img4", "src" : "/images/image_4_big.jpg" },
-			{ "id" : "img5", "src" : "/images/image_5_big.jpg" },
-			{ "id" : "img6", "src" : "/images/image_6_big.jpg" }
-			]
-		},
-		"category7" : {
-			"images" : [ 
-			{ "id" : "img6", "src" : "/images/image_6_big.jpg" },
-			{ "id" : "img7", "src" : "/images/image_7_big.jpg" },
-			{ "id" : "img8", "src" : "/images/image_8_big.jpg" },
-			{ "id" : "img9", "src" : "/images/image_9_big.jpg" },
-			{ "id" : "img10", "src" : "/images/image_10_big.jpg" }
-			]
-		},
-		"category8" : {
-			"images" : [ 
-			{ "id" : "img1", "src" : "/images/image_1_big.jpg" },
-			{ "id" : "img4", "src" : "/images/image_4_big.jpg" },
-			{ "id" : "img5", "src" : "/images/image_5_big.jpg" },
-			{ "id" : "img6", "src" : "/images/image_6_big.jpg" },
-			{ "id" : "img7", "src" : "/images/image_7_big.jpg" },
-			{ "id" : "img8", "src" : "/images/image_8_big.jpg" }
+			{ "id" : "img1", "src" : "/images/events/Teatr_Baj_30-09-2014/P9301915_s.jpg" },
+			{ "id" : "img2", "src" : "/images/events/Teatr_Baj_30-09-2014/P9301922_s.jpg" },
+			{ "id" : "img3", "src" : "/images/events/Teatr_Baj_30-09-2014/P9301940_s.jpg" },
+			{ "id" : "img4", "src" : "/images/events/Teatr_Baj_30-09-2014/P9301941_s.jpg" },
+			{ "id" : "img5", "src" : "/images/events/Teatr_Baj_30-09-2014/P9301945_s.jpg" },
+			{ "id" : "img6", "src" : "/images/events/Teatr_Baj_30-09-2014/P9301950_s.jpg" },
+			{ "id" : "img7", "src" : "/images/events/Teatr_Baj_30-09-2014/P9301957_s.jpg" },
+			{ "id" : "img8", "src" : "/images/events/Teatr_Baj_30-09-2014/P9301963_s.jpg" },
+			{ "id" : "img9", "src" : "/images/events/Teatr_Baj_30-09-2014/P9301965_s.jpg" },
+			{ "id" : "img10", "src" : "/images/events/Teatr_Baj_30-09-2014/P9301967_s.jpg" },
+			{ "id" : "img11", "src" : "/images/events/Teatr_Baj_30-09-2014/P9301970_s.jpg" },
+			{ "id" : "img12", "src" : "/images/events/Teatr_Baj_30-09-2014/P9301982_s.jpg" },
+			{ "id" : "img13", "src" : "/images/events/Teatr_Baj_30-09-2014/P9301984_s.jpg" },
+			{ "id" : "img14", "src" : "/images/events/Teatr_Baj_30-09-2014/P9301988_s.jpg" },
+			{ "id" : "img15", "src" : "/images/events/Teatr_Baj_30-09-2014/P9301997_s.jpg" },
+			{ "id" : "img16", "src" : "/images/events/Teatr_Baj_30-09-2014/P9301999_s.jpg" },
+			{ "id" : "img17", "src" : "/images/events/Teatr_Baj_30-09-2014/P9302006_s.jpg" },
+			{ "id" : "img18", "src" : "/images/events/Teatr_Baj_30-09-2014/P9302007_s.jpg" },
+			{ "id" : "img19", "src" : "/images/events/Teatr_Baj_30-09-2014/P9302014_s.jpg" },
+			{ "id" : "img20", "src" : "/images/events/Teatr_Baj_30-09-2014/P9302015_s.jpg" },
+			{ "id" : "img21", "src" : "/images/events/Teatr_Baj_30-09-2014/P9302017_s.jpg" },
+			{ "id" : "img22", "src" : "/images/events/Teatr_Baj_30-09-2014/P9302021_s.jpg" },
+			{ "id" : "img23", "src" : "/images/events/Teatr_Baj_30-09-2014/P9302026_s.jpg" },
+			{ "id" : "img24", "src" : "/images/events/Teatr_Baj_30-09-2014/P9302030_s.jpg" },
+			{ "id" : "img25", "src" : "/images/events/Teatr_Baj_30-09-2014/P9302031_s.jpg" },
+			{ "id" : "img26", "src" : "/images/events/Teatr_Baj_30-09-2014/P9302040_s.jpg" }
 			]
 		}
 	}

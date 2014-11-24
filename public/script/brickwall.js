@@ -304,7 +304,7 @@
             'x': 5,
             'y': 5
         },
-        'fadeInTime': 350,
+        'fadeInTime': 250,
         'updateOnWindowResize': true,
         'lineHeight': {
             'min': false,

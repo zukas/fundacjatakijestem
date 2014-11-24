@@ -6,11 +6,6 @@
 	padding-top: 10px;
 	border-top: 1px solid #f7941e;
 	border-bottom: 1px solid #343433;
-	opacity: 0.9;
-}
-
-.eventWrapper:hover {
-	opacity: 1;
 }
 
 .eventWrapper:last-child {
@@ -59,28 +54,34 @@
 }
 
 .galleryItem img {
-	overflow: hidden;
+	width: auto; 
+	height: 100%;
 	border: 1px solid #f7941e;
 }		
 
 .galleryItem {
-	padding: 20px;
+	float: left; 
+	margin: 8px;
+	/*padding: 10px;*/
 	border: 1px solid #f7941e;
 	background: #343433;
-	box-sizing: border-box;
+	box-sizing: border-box; 
+	overflow: hidden; 
+	position: relative;
 }
 
-.tiltOdd {
+.galleryItem:nth-child(odd) {
 	-webkit-transform : rotate(1deg);
 	-moz-transform : rotate(1deg);
 	-ms-transform : rotate(1deg);
 	transform : rotate(1deg);
 }
 
-.tiltEven {
+.galleryItem:nth-child(even) {
 	-webkit-transform : rotate(-1deg);
 	-moz-transform : rotate(-1deg);
 	-ms-transform : rotate(-1deg);
 	transform : rotate(-1deg);
-}
+}	
+
 

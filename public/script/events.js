@@ -1,18 +1,20 @@
 function predicate(index, list, items, done) {
 	if (index < list.length) {
-		var item = document.createElement('li'),
+		var item = document.createElement('div'),
 			image = document.createElement('img');
 		item.setAttribute("id", list[index].id);
-		item.setAttribute('class', 'galleryItem ' + (index % 2 == 0 ? 'tiltEven' : 'tiltOdd'));
+		item.setAttribute('class', 'galleryItem');
 		image.setAttribute('src', list[index].src);
 		image.setAttribute('class', 'previewImage');
 		item.appendChild(image);
 
 		$(image).load(function(){
-	     	image.setAttribute("width", (this.width / this.height) * 250);
-			image.setAttribute("height", 250);
-	    	image.setAttribute('originalWidth', this.width);
-	     	image.setAttribute('originalHeight', this.height);
+	  //   	image.setAttribute('originalWidth', this.width);
+	  //    	image.setAttribute('originalHeight', this.height);
+	  //    	image.setAttribute("width", Math.round((this.width / this.height) * 185));
+			// image.setAttribute("height", 185);
+			item.setAttribute("data-w", Math.round((this.width / this.height) * 250));
+			item.setAttribute("data-h", 250);
 	     	items.push(item);
 		    predicate(index + 1, list, items, done);
 		});
@@ -26,18 +28,18 @@ function populate (id) {
 		if(!data.error && data.result) {
 			predicate(0, data.result.images, [], function (items) {
 				if(!$("#brickGallery").length) {
-					var list = document.createElement('ul');
+					var list = document.createElement('div');
 					list.setAttribute("id", "brickGallery");
 					$("#" + id + "View").append($(list))
 				}
 
 				$("#brickGallery").html(items);
-				$("#brickGallery").brickwall();	
+				$("#brickGallery").flexImages({rowHeight: 250, container : ".galleryItem"});	
 
 				$("img.previewImage").click(function () {
 					$.magnificPopup.open({
 						items : {
-							src : $(this).attr("src").replace(".png", ".jpg")
+							src : $(this).attr("src").replace("_s.jpg", ".jpg")
 						},
 						type : "image"
 					});
@@ -54,7 +56,7 @@ function populate (id) {
 					}
 
 				});
-				$("#brickGallery").height(maxHeaight + 50);
+				$("#brickGallery").height(maxHeaight + 50);	
 				$("#brickGallery").ScrollTo({ duration : 600 });
 				gla.forEach(function (item) { item.fadeOut(0); });
 				var animate = function (items) {

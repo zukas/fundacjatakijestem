@@ -1,14 +1,13 @@
 #! /bin/sh
 
 ### BEGIN INIT INFO
-# Provides:          ftj
-# Required-Start:    $remote_fs $syslog
-# Required-Stop:     $remote_fs $syslog
-# Should-Start:      $named
-# Default-Start:     2 3 4 5
-# Default-Stop:      
-# Short-Description: Website
-# Description:       Fundacja TAKI JESTEM website
+# Provides:   ftj
+# Required-Start: $remote_fs $syslog
+# Required-Stop:  $remote_fs $syslog
+# Default-Start:  2 3 4 5
+# Default-Stop:
+# Short-Description:  Website
+# Description:        Fundacja TAKI JESTEM website
 ### END INIT INFO
 
 set -e
@@ -21,17 +20,22 @@ APP=server.js
 case "$1" in
   start)
     sudo /usr/bin/node $APP_PATH/$APP > /dev/null 2>&1 &
-	;;
+    echo FTJ service started
+  ;;
   stop)
-    sudo killall -9 node nodejs
-	;;
+      sudo killall -9 node
+      echo FTJ service stoped
+  ;;
   restart)
-    sudo killall -9 node nodejs 
-    sudo /usr/bin/node $APP_PATH/$APP > /dev/null 2>&1 &
-	;;
+      sudo killall -9 node
+      echo FTK service stoped
+      sleep 3
+      sudo /usr/bin/node $APP_PATH/$APP > /dev/null 2>&1 &
+      echo FTJ service started
+  ;;
   *)
-	echo "Usage: /etc/init.d/ftj {start|stop|restart}"
-	exit 1
+      echo "Usage: /etc/init.d/ftj {start|stop|restart}"
+      exit 1
 esac
 
 exit 0
