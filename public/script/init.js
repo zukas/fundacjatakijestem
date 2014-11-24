@@ -12,7 +12,7 @@ App.showLoader = function (count)
 		text.setAttribute("class", "text strong noselect");
 		text.innerHTML = "Loading";
 		var bar = document.createElement('div');
-		bar.setAttribute("style", "width : 0%; height: 9px; bottom: 0px; background: #343433; border-radius: 3px; box-shadow: 1px 1px 0px #fff;");
+		bar.setAttribute("style", "width : 0%; height: 6px; bottom: 0px; background: #343433; border-radius: 4px; box-shadow: 1px 1px 0px #fff;");
 		
 		text.appendChild(bar);
 		loader.appendChild(text);

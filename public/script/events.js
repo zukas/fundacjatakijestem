@@ -59,7 +59,7 @@ function populate (id) {
 				gla.forEach(function (item) { item.fadeOut(0); });
 				var animate = function (items) {
 					if(items.length > 0) {
-						items[0].fadeIn(function () {
+						items[0].fadeIn(400, function () {
 							animate(items.splice(1));
 							items = null;
 						});
