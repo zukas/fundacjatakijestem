@@ -84,7 +84,7 @@ function populate (id) {
 
 
 $( window ).bind("load", function () {
-	$(".eventTitle, .eventLogo").click(function () {
+	$(".eventTitle, .card").click(function () {
 		var _id = $(this).closest(".eventWrapper").attr("id");
 		if($("#brickGallery").length)
 		{
@@ -115,4 +115,20 @@ $( window ).bind("load", function () {
 			populate(_id);
 		}	
 	});
+	$(".eventLogo").each(function() {
+		var img = $(this);
+		var back = img.siblings(".back");
+		var card = img.closest(".card");
+		$("<img/>")
+	    .attr("src", $(this).attr("src"))
+	    .load(function() {
+	    	img.width(this.width);
+			img.height(this.height);
+			back.width(this.width);
+			back.height(this.height);
+	    	card.width(this.width);
+			card.height(this.height);
+	    });		
+	});
+	// App.notify("To access the images of a event please click the title or logo of the event.", 10000);
 });

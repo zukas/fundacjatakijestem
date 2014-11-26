@@ -56,6 +56,43 @@ App.hideLoader = function ()
 	}
 }
 
+App.notify = function (text, duration) 
+{
+	var notify = document.getElementById("tt-global-notify");
+	if(notify) 
+	{
+		notify.destroy();
+	}
+
+	notify = document.createElement('div');
+	notify.setAttribute("id", "tt-global-notify");
+	notify.setAttribute("style", "background : rgba(0,0,0,0.15); border-bottom : 1px #f7941e solid; width: 100%; height: 25px; position: absolute; top : -50px; left: 0px; z-index: 99");
+	var txt = document.createElement("div");
+	txt.setAttribute("style", "position: relative; color: #343433; text-shadow: 1px 1px 0px #fff; top: 50%; transform: translateY(-50%); text-align: center;");
+	txt.innerHTML = text;
+	notify.appendChild(txt);
+	notify.close = function () 
+	{
+		var tmp = this;
+		$(tmp).animate({ top : "-=50px" }, 600, function () { tmp.destroy(); });
+	};
+
+	notify.destroy = function ()
+	{
+		document.body.removeChild(this);
+	}
+
+	// $(notify).hide();
+	document.body.appendChild(notify);
+	$(notify).animate({ top : "+=50px" }, 600, function () {
+		var tmp = notify;
+		setTimeout(function() {
+			tmp.close();
+			tmp = null;
+		}, duration);
+	});
+}
+
 function updatePage()
 {
 	var _height  = $("body").height() - $("#header").height() - $("#headerSeparator").height() - $("#footer").height() - 15;

@@ -1,5 +1,6 @@
 
 .eventWrapper {
+	perspective: 1000;
 	display: block;
 	position: relative;
 	padding-bottom: 10px;
@@ -27,17 +28,60 @@
 	color: #f7941e;
 }
 
+.eventWrapper:hover .card, .eventWrapper.hover .card {
+	transform: rotateY(180deg);
+}
+
 .eventLogo {
 	display: inline;
-	margin: 2em 2em 2em 2em;
+	/*margin: 2em 2em 2em 2em;*/
 	cursor: pointer;
 }
 
-.eventWrapper:nth-child(even) .eventLogo {
+.card {
+	display: inline;
+	position: relative;
+	margin: 2em 2em 2em 2em;
+	cursor: pointer;
+	transition: 0.6s;
+	transform-style: preserve-3d;
+}
+
+.back .text{
+	text-align: center;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 2em;
+	color: #f7941e;
+	text-shadow: 1px 1px 0px #343433;
+}
+
+.card .front, 
+.card .back{
+	backface-visibility: hidden;
+	position: absolute;
+	text-align: center;
+	left: 0px;
+	top: 0px;
+}
+
+.front {
+	z-index: 2;
+	transform: rotateY(0deg);
+}
+
+.back {
+	transform: rotateY(180deg);
+	background : transparent url("../images/backdrop.png") no-repeat center;
+	background-size: 100% auto;
+}
+
+.eventWrapper:nth-child(even) .card {
 	float: right;
 }
 
-.eventWrapper:nth-child(odd) .eventLogo {
+.eventWrapper:nth-child(odd) .card {
 	float: left;
 }
 
@@ -83,5 +127,3 @@
 	-ms-transform : rotate(-1deg);
 	transform : rotate(-1deg);
 }	
-
-
