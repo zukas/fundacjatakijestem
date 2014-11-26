@@ -8,7 +8,7 @@ App.showLoader = function (count)
 		loader.setAttribute("id", "tt-global-loader");
 		loader.setAttribute("style", "position : absolute; top: 0px; left: 0px; background : rgba(0,0,0,0.25); z-index: 100; width : 100%; height : 100%; text-align: center;");
 		var text = document.createElement("div");
-		text.setAttribute("style", "position: relative; display: inline-block; font-size: 4em; text-align: center; top : 50%; transform: translateY(-50%);");
+		text.setAttribute("style", "position: relative; display: inline-block; font-size: 2.5em; text-align: center; top : 50%; transform: translateY(-50%);");
 		text.setAttribute("class", "text strong noselect");
 		text.innerHTML = "Loading";
 		var bar = document.createElement('div');
