@@ -1,4 +1,25 @@
 window.App = {};
+App.isIE = function () {
+    var ua = window.navigator.userAgent;
+    var msie = ua.indexOf('MSIE ');
+    var trident = ua.indexOf('Trident/');
+
+    // if (msie > 0) {
+    //     // IE 10 or older => return version number
+    //     return parseInt(ua.substring(msie + 5, ua.indexOf('.', msie)), 10);
+    // }
+
+    // if (trident > 0) {
+    //     // IE 11 (or newer) => return version number
+    //     var rv = ua.indexOf('rv:');
+    //     return parseInt(ua.substring(rv + 3, ua.indexOf('.', rv)), 10);
+    // }
+
+    // other browser
+    return msie > 0 || trident > 0;
+}
+
+
 App.showLoader = function (count)
 {
 	if(!document.getElementById("tt-global-loader"))
@@ -56,7 +77,7 @@ App.hideLoader = function ()
 	}
 }
 
-App.notify = function (text, duration) 
+App.notify = function (item, duration) 
 {
 	var notify = document.getElementById("tt-global-notify");
 	if(notify) 
@@ -66,11 +87,13 @@ App.notify = function (text, duration)
 
 	notify = document.createElement('div');
 	notify.setAttribute("id", "tt-global-notify");
-	notify.setAttribute("style", "background : rgba(0,0,0,0.15); border-bottom : 1px #f7941e solid; width: 100%; height: 25px; position: absolute; top : -50px; left: 0px; z-index: 99");
+	notify.setAttribute("style", "background : rgba(240,240,240,0.80); border-bottom : 1px #f7941e solid; width: 100%; height: 25px; position: absolute; top : -50px; left: 0px; z-index: 99");
+
 	var txt = document.createElement("div");
-	txt.setAttribute("style", "position: relative; color: #343433; text-shadow: 1px 1px 0px #fff; top: 50%; transform: translateY(-50%); text-align: center;");
-	txt.innerHTML = text;
+	txt.setAttribute("style", "position: relative; color: #343433; text-shadow: 1px 1px 0px #fff; text-align: center; height: 25px; vertical-align: middle; line-height: 25px;");
+	txt.innerHTML = item;
 	notify.appendChild(txt);
+	
 	notify.close = function () 
 	{
 		var tmp = this;
@@ -120,6 +143,32 @@ $( window ).bind("load", function () {
 		});
 	});
 	updatePage();
+	if(App.isIE()) 
+	{
+
+		var items = "This website require a modern web browser please use" +
+					"<a href='https://www.mozilla.org/en-US/firefox/all/?q=Polish,%20Polski' ><img style='cursor: pointer; height: 25px; display: inline; vertical-align: middle; margin-left: 10px; margin-right: 5px;' src='./images/firefox.png'></a>" +
+					" or " +
+					"<a href='https://www.google.pl/intl/en/chrome/browser/' ><img style='cursor: pointer; height: 25px; display: inline; vertical-align: middle; margin-left: 5px;' src='./images/chrome.png'></a>";
+		// var wrap = document.createElement("table");
+		// wrap.setAttribute("style", "position: relative; color: #343433; text-shadow: 1px 1px 0px #fff; text-align: center; height: 25px; vertical-align: middle; line-height: 25px;");
+		// var tr = document.createElement("tr");
+		// var td1 = document.createElement("tr");
+		// var txt = document.createElement("div");
+		// txt.setAttribute("style", "display: inline;");
+		// txt.innerHTML = "This website require a modern web browser please use";
+		// tr.appendChild(txt);
+		// var br1 = document.createElement("img");
+		// br1.setAttribute("style", "height: 100%; width: auto; display: inline;");
+		// br1.setAttribute("src", "./images/firefox.png");
+		// tr.appendChild(br1);
+		// var br2 = document.createElement("img");
+		// br2.setAttribute("style", "height: 100%; width: auto; display: inline;");
+		// br2.setAttribute("src", "./images/chrome.png");
+		// tr.appendChild(br2);
+		// /"This website require a modern web browser please use <img src='./images/firefox.png' style='display:inline; height : 25px; width: auto;'> or <img src='./images/chrome.png' style='display:inline; height : 25px; width: auto;'>"
+		App.notify(items, 60000);
+	}
 });
 $( window ).resize(updatePage);
 

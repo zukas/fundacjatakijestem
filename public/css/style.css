@@ -130,13 +130,11 @@ body {
 
 span.p1{
 	color: #343433;
-	font-style: italic;
 	font-weight: bold;
 }
 
 span.p2{
 	color: #f7941e;
-	font-style: italic;
 	font-weight: bold;
 }
 
@@ -273,6 +271,14 @@ span.p2{
 	border: 1px solid #343433;
 }
 
-img.previewImage {
+.previewImage {
 	cursor : zoom-in;
+}
+
+.ie .previewImage {
+	cursor : pointer;
+}
+
+.indent {
+	text-indent: 35px;
 }

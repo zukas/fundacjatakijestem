@@ -2,9 +2,13 @@
 <html>
 	<head>
   		<meta charset="utf-8">
+  		<!--[if (IE 6) | (IE 7) | (IE 8)]>
+  		<link rel="stylesheet" href="./css/unsupported.css" type="text/css">
+  		<![endif]-->
+  		<!--[if (gte IE 9)|!(IE)]><!-->
   		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   		<script type="text/javascript" src="./script/jquery.flex-images.js"></script>
-  		<script type="text/javascript" src="./script/jquery-scrollto.js"></script>
+  		<script type="text/javascript" src="./script/jquery.scrollTo.js"></script>
   		<script type="text/javascript" src="./script/jquery.media.js"></script>
   		<script type="text/javascript" src="./script/jquery.magnific-popup.js"></script>
   		{% block script %}
@@ -15,10 +19,34 @@
   		{% block style %}
   		{% endblock style %}
   		<link rel="stylesheet" href="./css/style.css" type="text/css">
+  		<!--<![endif]-->
   		<title>Fundacja TAKI JESTEM</title>
 	</head>
-	<body class="mainFont">
-<!-- 		<div id="backPic1" class="pictureFrame backdrop">
+
+	<body>
+		<!--[if (IE 9) | (IE 10) | (IE 11)]>
+		<script>
+		document.body.className += " ie";
+		</script>
+		<![endif]-->
+		<!--[if IE 8]>
+		<script>
+		document.body.className = "ie8";
+		</script>
+		<![endif]-->
+		<!--[if (IE 6) | (IE 7) | (IE 8)]>
+  		<div class="unsupported center">
+  			<img id="logo" src="./images/logo.png"></img>
+		    <div id="slogan"><span class="p1 text">Fundacja </span><span class="p2 text">TAKI JESTEM</span></div>
+		    <div id="words">Aktywizowanie i wspieranie osób z niepełnosprawnością intelektualną</div>
+  			<div class="text">We are sorry to inform you that a web browser that you are using is not supported. Please use a modern web browser to access this webite.</div>
+  			<div class="text">We recomend the following web broswers</div>
+  			<a href="https://www.mozilla.org/en-US/firefox/all/?q=Polish,%20Polski"><img class="browser" src="./images/firefox.png"></a>
+  			<a href="https://www.google.pl/intl/en/chrome/browser/"><img class="browser" src="./images/chrome.png"></a>
+  		</div>
+  		<![endif]-->
+		<!--[if (gte IE 9)|!(IE)]><!-->
+<!-- 	<div id="backPic1" class="pictureFrame backdrop">
 			<img src="images/322.jpg">
 		</div>
 		<div id="backPic2" class="pictureFrame backdrop">
@@ -56,5 +84,6 @@
 	    		<div id="season"></div>
 	    	</div>
 	    </div>
+	    <!--<![endif]-->
 	</body>
 </html>

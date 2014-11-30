@@ -1,5 +1,5 @@
-process.env.NODE_ENV = "production";
-process.env.EXPRESS_ENV = "production";
+// process.env.NODE_ENV = "production";
+// process.env.EXPRESS_ENV = "production";
 
 var express = require('express'),
 	favicon = require('serve-favicon'),
@@ -37,7 +37,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(multer());
 app.use(express.static(path.join(__dirname, 'public')));
 
-swig.setDefaults({ cache: 'memory' });
+// swig.setDefaults({ cache: 'memory' });
+swig.setDefaults({ cache: false });
 // development only
 if (isDev()) {
   app.use(errorHandler());
