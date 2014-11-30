@@ -146,9 +146,9 @@ $( window ).bind("load", function () {
 	if(App.isIE()) 
 	{
 
-		var items = "This website require a modern web browser please use" +
+		var items = "Ta strona wymaga nowoczesnej przeglądarki. Skorzystaj z" +
 					"<a href='https://www.mozilla.org/en-US/firefox/all/?q=Polish,%20Polski' ><img style='cursor: pointer; height: 25px; display: inline; vertical-align: middle; margin-left: 10px; margin-right: 5px;' src='./images/firefox.png'></a>" +
-					" or " +
+					" lub " +
 					"<a href='https://www.google.pl/intl/en/chrome/browser/' ><img style='cursor: pointer; height: 25px; display: inline; vertical-align: middle; margin-left: 5px;' src='./images/chrome.png'></a>";
 		// var wrap = document.createElement("table");
 		// wrap.setAttribute("style", "position: relative; color: #343433; text-shadow: 1px 1px 0px #fff; text-align: center; height: 25px; vertical-align: middle; line-height: 25px;");
