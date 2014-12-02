@@ -1,3 +1,9 @@
+
+window.onerror = function(msg, url, linenumber) {
+    alert('Error message: '+msg+'\nURL: '+url+'\nLine Number: '+linenumber);
+    return true;
+}
+
 window.App = {};
 App.isIE = function () {
     var ua = window.navigator.userAgent;
@@ -77,6 +83,16 @@ App.hideLoader = function ()
 	}
 }
 
+App.imagePopup = function (img) 
+{
+	$.magnificPopup.open({
+		type : "image",
+		items : {
+			src : img
+		}
+	});
+}
+
 App.notify = function (item, duration) 
 {
 	var notify = document.getElementById("tt-global-notify");
@@ -134,13 +150,7 @@ $( window ).bind("load", function () {
 		window.location.href = '/' + this.id;
 	});
 	$("img.previewImage").click(function () {
-		console.log("click on: " + $(this).attr("src"));
-		$.magnificPopup.open({
-			items : {
-				src : $(this).attr("src").replace(".png", ".jpg")
-			},
-			type : "image"
-		});
+		App.imagePopup($(this).attr("src").replace(".png", ".jpg"))
 	});
 	updatePage();
 	if(App.isIE()) 
@@ -150,23 +160,6 @@ $( window ).bind("load", function () {
 					"<a href='https://www.mozilla.org/en-US/firefox/all/?q=Polish,%20Polski' ><img style='cursor: pointer; height: 25px; display: inline; vertical-align: middle; margin-left: 10px; margin-right: 5px;' src='./images/firefox.png'></a>" +
 					" lub " +
 					"<a href='https://www.google.pl/intl/en/chrome/browser/' ><img style='cursor: pointer; height: 25px; display: inline; vertical-align: middle; margin-left: 5px;' src='./images/chrome.png'></a>";
-		// var wrap = document.createElement("table");
-		// wrap.setAttribute("style", "position: relative; color: #343433; text-shadow: 1px 1px 0px #fff; text-align: center; height: 25px; vertical-align: middle; line-height: 25px;");
-		// var tr = document.createElement("tr");
-		// var td1 = document.createElement("tr");
-		// var txt = document.createElement("div");
-		// txt.setAttribute("style", "display: inline;");
-		// txt.innerHTML = "This website require a modern web browser please use";
-		// tr.appendChild(txt);
-		// var br1 = document.createElement("img");
-		// br1.setAttribute("style", "height: 100%; width: auto; display: inline;");
-		// br1.setAttribute("src", "./images/firefox.png");
-		// tr.appendChild(br1);
-		// var br2 = document.createElement("img");
-		// br2.setAttribute("style", "height: 100%; width: auto; display: inline;");
-		// br2.setAttribute("src", "./images/chrome.png");
-		// tr.appendChild(br2);
-		// /"This website require a modern web browser please use <img src='./images/firefox.png' style='display:inline; height : 25px; width: auto;'> or <img src='./images/chrome.png' style='display:inline; height : 25px; width: auto;'>"
 		App.notify(items, 60000);
 	}
 });

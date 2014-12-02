@@ -1,3 +1,8 @@
+function galleryRowHeight ()
+{
+	return App.isIE() ? 200 : 250;
+}
+
 function predicate(index, list, items, done) {
 	if (index < list.length) {
 		var item = document.createElement('div'),
@@ -9,8 +14,8 @@ function predicate(index, list, items, done) {
 		item.appendChild(image);
 
 		$(image).load(function(){
-			item.setAttribute("data-w", Math.round((this.width / this.height) * 250));
-			item.setAttribute("data-h", 250);
+			item.setAttribute("data-w", Math.round((this.width / this.height) * galleryRowHeight()));
+			item.setAttribute("data-h", galleryRowHeight());
 	     	items.push(item);
 	     	App.updateLoder(index + 1);
 		    predicate(index + 1, list, items, done);
@@ -32,15 +37,10 @@ function populate (id) {
 				}
 
 				$("#brickGallery").html(items);
-				$("#brickGallery").flexImages({rowHeight: 250, container : ".galleryItem"});	
+				$("#brickGallery").flexImages({rowHeight: galleryRowHeight(), container : ".galleryItem"});	
 
 				$("img.previewImage").click(function () {
-					$.magnificPopup.open({
-						items : {
-							src : $(this).attr("src").replace("_s.jpg", ".jpg")
-						},
-						type : "image"
-					});
+					App.imagePopup($(this).attr("src").replace("_s.jpg", ".jpg"));
 				});
 
 				var maxHeaight = 0,
@@ -55,10 +55,7 @@ function populate (id) {
 
 				});
 				$("#brickGallery").height(maxHeaight + 50);	
-				console.log($("#" + id));
 				$("#contentWrapper").scrollTo("#brickGallery", 600);
-				// $.scrollTo("#brickGallery", 600);
-				// $("#brickGallery").scrollTo({ duration : 600 });
 				gla.forEach(function (item) { item.fadeOut(0); });
 				var animate = function (items) {
 					if(items.length > 0) {
@@ -147,5 +144,4 @@ $( window ).bind("load", function () {
 			card.height(this.height);
 	    });		
 	});
-	// App.notify("To access the images of a event please click the title or logo of the event.", 10000);
 });
