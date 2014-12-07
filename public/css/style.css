@@ -60,10 +60,16 @@ body {
 	min-width: 700px;
 	height: 100%;
 	min-height: 500px;
-	background-image: url(/images/bg.png);
 	background-repeat: repeat;
 	font-family: "Helvetica", "sans-serif" !important;
-	
+}
+
+body.autum {
+	background-image: url(/images/bg_autum.png);
+}
+
+body.winter {
+	background-image: url(/images/bg_winter.png);
 }
 
 .noselect {
@@ -197,11 +203,19 @@ span.p2{
 	display: inline-block;
 	float: right;
 	height: 90px;
-	width: 150px;
+	width: 200px;
 	background-repeat: no-repeat;
     background-size: auto 90px;	
-	background-image: url("/images/pumpkin.png");
+	background-position: right center;
 	margin-top: -95px;
+}
+
+body.autum #season {
+	background-image: url("/images/pic_autum.png");
+}
+
+body.winter #season {
+	background-image: url("/images/pic_winter.png");
 }
 
 .text{
