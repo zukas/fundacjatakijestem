@@ -146,6 +146,23 @@
 			{ "id" : "img25", "src" : "/images/events/Teatr_Baj_30-09-2014/P9302031_s.jpg" },
 			{ "id" : "img26", "src" : "/images/events/Teatr_Baj_30-09-2014/P9302040_s.jpg" }
 			]
+		},
+		"category6" : {
+			"images" : [ 
+			{ "id" : "img1", "src" : "/images/events/Calendar_2015/intro_s.jpg" },
+			{ "id" : "img3", "src" : "/images/events/Calendar_2015/jan_s.jpg" },
+			{ "id" : "img4", "src" : "/images/events/Calendar_2015/feb_s.jpg" },
+			{ "id" : "img5", "src" : "/images/events/Calendar_2015/mar_s.jpg" },
+			{ "id" : "img6", "src" : "/images/events/Calendar_2015/apr_s.jpg" },
+			{ "id" : "img7", "src" : "/images/events/Calendar_2015/may_s.jpg" },
+			{ "id" : "img8", "src" : "/images/events/Calendar_2015/jun_s.jpg" },
+			{ "id" : "img9", "src" : "/images/events/Calendar_2015/jul_s.jpg" },
+			{ "id" : "img10", "src" : "/images/events/Calendar_2015/aug_s.jpg" },
+			{ "id" : "img11", "src" : "/images/events/Calendar_2015/sep_s.jpg" },
+			{ "id" : "img12", "src" : "/images/events/Calendar_2015/oct_s.jpg" },
+			{ "id" : "img13", "src" : "/images/events/Calendar_2015/nov_s.jpg" },
+			{ "id" : "img14", "src" : "/images/events/Calendar_2015/dec_s.jpg" }
+			]
 		}
 	}
 }

@@ -215,7 +215,7 @@ body.autum #season {
 }
 
 body.winter #season {
-	background-image: url("/images/pic_winter.png");
+	background-image: url("/images/pic_winter2.gif");
 }
 
 .text{
@@ -296,3 +296,7 @@ body.winter #season {
 .indent {
 	text-indent: 35px;
 }
+
+i {
+    font-style: italic;
+} 

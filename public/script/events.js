@@ -136,12 +136,29 @@ $( window ).bind("load", function () {
 		$("<img/>")
 	    .attr("src", $(this).attr("src"))
 	    .load(function() {
-	    	img.width(this.width);
-			img.height(this.height);
-			back.width(this.width);
-			back.height(this.height);
-	    	card.width(this.width);
-			card.height(this.height);
+
+	    	var tmp_width = this.width;
+	    	var tmp_height = this.height;
+
+	    	while(tmp_width * tmp_height > 100000)
+	    	{
+	    		tmp_width *= 0.75;
+	    		tmp_height *= 0.75;
+	    	}
+	    	if(tmp_height > tmp_width)
+	    	{
+	    		tmp_height += 1; 
+	    	} 
+	    	else {
+	    		tmp_width +=1;
+	    	}
+
+	    	img.width(tmp_width);
+			img.height(tmp_height);
+			back.width(tmp_width);
+			back.height(tmp_height);
+	    	card.width(tmp_width);
+			card.height(tmp_height);
 	    });		
 	});
 });
