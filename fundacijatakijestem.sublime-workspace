@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"tmp",
+				"tmp_height"
+			],
+			[
+				"tm",
+				"tmp_width"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"tmp_",
+				"tmp_width"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"on",
+				"onmouseover	Attr"
+			],
+			[
 				"re",
 				"res"
 			],
@@ -22,10 +50,6 @@
 			[
 				"text",
 				"text-indent"
-			],
-			[
-				"in",
-				"inline"
 			],
 			[
 				"margin-",
@@ -148,10 +172,6 @@
 				"text-align"
 			],
 			[
-				"max",
-				"max-height"
-			],
-			[
 				"wid",
 				"width"
 			],
@@ -178,10 +198,6 @@
 			[
 				"font",
 				"font-size"
-			],
-			[
-				"min",
-				"min-width"
 			],
 			[
 				"ta",
@@ -268,34 +284,10 @@
 	"buffers":
 	[
 		{
-			"file": "server.js",
+			"file": "views/events.html",
 			"settings":
 			{
-				"buffer_size": 1678,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "views/home.html",
-			"settings":
-			{
-				"buffer_size": 6517,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "public/script/init.js",
-			"settings":
-			{
-				"buffer_size": 4284,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "views/about.html",
-			"settings":
-			{
-				"buffer_size": 1558,
+				"buffer_size": 12310,
 				"line_ending": "Unix"
 			}
 		},
@@ -303,39 +295,15 @@
 			"file": "public/css/style.css",
 			"settings":
 			{
-				"buffer_size": 4587,
+				"buffer_size": 4620,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "public/script/home.js",
+			"file": "config/db.json",
 			"settings":
 			{
-				"buffer_size": 42,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "routes/index.js",
-			"settings":
-			{
-				"buffer_size": 849,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "public/script/events.js",
-			"settings":
-			{
-				"buffer_size": 3936,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "views/layout.html",
-			"settings":
-			{
-				"buffer_size": 3917,
+				"buffer_size": 12138,
 				"line_ending": "Unix"
 			}
 		}
@@ -370,33 +338,36 @@
 		"/home/zukas/repos/fundacjatakijestem",
 		"/home/zukas/repos/fundacjatakijestem/config",
 		"/home/zukas/repos/fundacjatakijestem/engines",
+		"/home/zukas/repos/fundacjatakijestem/public",
+		"/home/zukas/repos/fundacjatakijestem/public/css",
+		"/home/zukas/repos/fundacjatakijestem/public/script",
 		"/home/zukas/repos/fundacjatakijestem/routes",
 		"/home/zukas/repos/fundacjatakijestem/views"
 	],
 	"file_history":
 	[
-		"/home/zukas/repos/fundacjatakijestem/public/script/jquery.magnific-popup.js",
-		"/home/zukas/repos/fundacjatakijestem/public/css/style.css",
-		"/home/zukas/repos/fundacjatakijestem/public/css/about.css",
-		"/home/zukas/repos/fundacjatakijestem/views/about.html",
-		"/home/zukas/repos/fundacjatakijestem/views/events.html",
+		"/home/zukas/repos/fundacjatakijestem/config/db.json",
+		"/home/zukas/repos/fundacjatakijestem/server.js",
 		"/home/zukas/repos/fundacjatakijestem/views/home.html",
-		"/home/zukas/repos/fundacjatakijestem/public/css/home.css",
-		"/home/zukas/repos/fundacjatakijestem/public/script/events.js",
 		"/home/zukas/repos/fundacjatakijestem/public/script/init.js",
+		"/home/zukas/repos/fundacjatakijestem/views/about.html",
+		"/home/zukas/repos/fundacjatakijestem/public/css/style.css",
+		"/home/zukas/repos/fundacjatakijestem/public/css/home.css",
+		"/home/zukas/repos/fundacjatakijestem/public/script/home.js",
+		"/home/zukas/repos/fundacjatakijestem/routes/index.js",
+		"/home/zukas/repos/fundacjatakijestem/public/script/events.js",
+		"/home/zukas/repos/fundacjatakijestem/views/events.html",
+		"/home/zukas/repos/fundacjatakijestem/public/css/events.css",
+		"/home/zukas/repos/fundacjatakijestem/views/layout.html",
+		"/home/zukas/repos/fundacjatakijestem/public/script/jquery.magnific-popup.js",
+		"/home/zukas/repos/fundacjatakijestem/public/css/about.css",
 		"/home/zukas/repos/fundacjatakijestem/public/css/unsupported.css",
 		"/home/zukas/repos/fundacjatakijestem/public/script/jquery.scrollTo.js",
-		"/home/zukas/repos/fundacjatakijestem/views/layout.html",
 		"/home/zukas/repos/fundacjatakijestem/views/contact.html",
-		"/home/zukas/repos/fundacjatakijestem/server.js",
-		"/home/zukas/repos/fundacjatakijestem/public/css/events.css",
 		"/home/zukas/repos/fundacjatakijestem/public/script/about.js",
 		"/home/zukas/repos/fundacjatakijestem/ftj",
-		"/home/zukas/repos/fundacjatakijestem/public/script/home.js",
 		"/home/zukas/repos/fundacjatakijestem/public/script/jquery.flex-images.js",
-		"/home/zukas/repos/fundacjatakijestem/config/db.json",
 		"/home/zukas/repos/fundacjatakijestem/public/script/brickwall.js",
-		"/home/zukas/repos/fundacjatakijestem/routes/index.js",
 		"/home/zukas/repos/fundacjatakijestem/package.json",
 		"/home/zukas/repos/fundacjatakijestem/public/css/magnific-popup.css",
 		"/home/zukas/repos/fundacjatakijestem/public/css/gallery.css",
@@ -458,7 +429,7 @@
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -531,111 +502,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "server.js",
+					"file": "views/events.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1678,
+						"buffer_size": 12310,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								774,
-								774
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "views/home.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6517,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								662,
-								662
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "public/script/init.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4284,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								160,
-								160
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "views/about.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1558,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1436,
-								1436
+								1661,
+								1661
 							]
 						],
 						"settings":
@@ -643,27 +527,27 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 54.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 1,
 					"file": "public/css/style.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4587,
+						"buffer_size": 4620,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3389,
-								3389
+								4620,
+								4620
 							]
 						],
 						"settings":
@@ -672,124 +556,39 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3510.0,
+						"translation.y": 5085.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "public/script/home.js",
+					"buffer": 2,
+					"file": "config/db.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 42,
+						"buffer_size": 12138,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								38,
-								38
+								11256,
+								11256
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "routes/index.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 849,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								104,
-								104
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2322.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "public/script/events.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3936,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3932,
-								3932
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "views/layout.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3917,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3853,
-								3853
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 810.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -868,7 +667,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 212.0,
+	"side_bar_width": 356.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
