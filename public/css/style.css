@@ -72,6 +72,10 @@ body.winter {
 	background-image: url(/images/bg_winter.png);
 }
 
+body.spring {
+	background-image: url(/images/bg_spring.png);
+}
+
 .noselect {
   -webkit-user-select: none;  
   -moz-user-select: none;    
@@ -216,6 +220,10 @@ body.autum #season {
 
 body.winter #season {
 	background-image: url("/images/pic_winter2.gif");
+}
+
+body.spring #season {
+	background-image: url("/images/pic_spring.png");
 }
 
 .text{
