@@ -207,6 +207,43 @@
 			{ "id" : "img13", "src" : "/images/events/Calendar_2015/nov_s.jpg" },
 			{ "id" : "img14", "src" : "/images/events/Calendar_2015/dec_s.jpg" }
  			]
+		},
+		"category8" : {
+			"images" : [ 
+			{ "id" : "img1", "src" : "/images/events/Teatr_Pantomimy-24-03-2015/P1016019_s.jpg" },
+			{ "id" : "img2", "src" : "/images/events/Teatr_Pantomimy-24-03-2015/P1016043_s.jpg" },
+			{ "id" : "img3", "src" : "/images/events/Teatr_Pantomimy-24-03-2015/P1016077_s.jpg" },
+			{ "id" : "img4", "src" : "/images/events/Teatr_Pantomimy-24-03-2015/P1016110_s.jpg" },
+			{ "id" : "img5", "src" : "/images/events/Teatr_Pantomimy-24-03-2015/P1016141_s.jpg" },
+			{ "id" : "img6", "src" : "/images/events/Teatr_Pantomimy-24-03-2015/P1016148_s.jpg" },
+			{ "id" : "img7", "src" : "/images/events/Teatr_Pantomimy-24-03-2015/P1016149_s.jpg" },
+			{ "id" : "img8", "src" : "/images/events/Teatr_Pantomimy-24-03-2015/P1016153_s.jpg" },
+			{ "id" : "img9", "src" : "/images/events/Teatr_Pantomimy-24-03-2015/P1016154_s.jpg" },
+			{ "id" : "img10", "src" : "/images/events/Teatr_Pantomimy-24-03-2015/P1016158_s.jpg" },
+			{ "id" : "img11", "src" : "/images/events/Teatr_Pantomimy-24-03-2015/P1016175_s.jpg" },
+			{ "id" : "img12", "src" : "/images/events/Teatr_Pantomimy-24-03-2015/P1016181_s.jpg" },
+			{ "id" : "img13", "src" : "/images/events/Teatr_Pantomimy-24-03-2015/P1016195_s.jpg" },
+			{ "id" : "img14", "src" : "/images/events/Teatr_Pantomimy-24-03-2015/P1016198_s.jpg" },
+			{ "id" : "img15", "src" : "/images/events/Teatr_Pantomimy-24-03-2015/P1016229_s.jpg" },
+			{ "id" : "img16", "src" : "/images/events/Teatr_Pantomimy-24-03-2015/P1016256_s.jpg" },
+			{ "id" : "img17", "src" : "/images/events/Teatr_Pantomimy-24-03-2015/P1016257_s.jpg" },
+			{ "id" : "img18", "src" : "/images/events/Teatr_Pantomimy-24-03-2015/P1016263_s.jpg" },
+			{ "id" : "img19", "src" : "/images/events/Teatr_Pantomimy-24-03-2015/P1016267_s.jpg" },
+			{ "id" : "img20", "src" : "/images/events/Teatr_Pantomimy-24-03-2015/P1016269_s.jpg" },
+			{ "id" : "img21", "src" : "/images/events/Teatr_Pantomimy-24-03-2015/P1016279_s.jpg" },
+			{ "id" : "img22", "src" : "/images/events/Teatr_Pantomimy-24-03-2015/P1016281_s.jpg" },
+			{ "id" : "img23", "src" : "/images/events/Teatr_Pantomimy-24-03-2015/P1016288_s.jpg" },
+			{ "id" : "img24", "src" : "/images/events/Teatr_Pantomimy-24-03-2015/P1016289_s.jpg" },
+			{ "id" : "img25", "src" : "/images/events/Teatr_Pantomimy-24-03-2015/P1016296_s.jpg" },
+			{ "id" : "img26", "src" : "/images/events/Teatr_Pantomimy-24-03-2015/P1016316_s.jpg" },
+			{ "id" : "img27", "src" : "/images/events/Teatr_Pantomimy-24-03-2015/P1016317_s.jpg" },
+			{ "id" : "img28", "src" : "/images/events/Teatr_Pantomimy-24-03-2015/P1016319_s.jpg" },
+			{ "id" : "img29", "src" : "/images/events/Teatr_Pantomimy-24-03-2015/P1016330_s.jpg" },
+			{ "id" : "img30", "src" : "/images/events/Teatr_Pantomimy-24-03-2015/P1016331_s.jpg" },
+			{ "id" : "img31", "src" : "/images/events/Teatr_Pantomimy-24-03-2015/P1016333_s.jpg" },
+			{ "id" : "img32", "src" : "/images/events/Teatr_Pantomimy-24-03-2015/P1016342_s.jpg" },
+			{ "id" : "img33", "src" : "/images/events/Teatr_Pantomimy-24-03-2015/P1016344_s.jpg" }
+ 			]
 		}
 	}
 }
