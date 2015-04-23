@@ -287,7 +287,15 @@
 			"file": "views/events.html",
 			"settings":
 			{
-				"buffer_size": 17301,
+				"buffer_size": 20874,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/db.json",
+			"settings":
+			{
+				"buffer_size": 21328,
 				"line_ending": "Unix"
 			}
 		}
@@ -437,6 +445,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Teatr_Pantomimy-24-03-2015",
 			"console.log",
 			":)",
 			"”",
@@ -475,6 +484,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"Teatr_Roma_strona zdjecia_17-04-2015",
+			"Teatr_Pantomimy-24-03-2015",
 			"\"",
 			"_s.jpg",
 			"",
@@ -506,15 +517,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 17301,
+						"buffer_size": 20874,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								841,
-								841
+								3572,
+								3572
 							]
 						],
 						"settings":
@@ -523,10 +534,39 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 270.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "config/db.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 21328,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								19598,
+								19598
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4310.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
