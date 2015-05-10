@@ -100,39 +100,40 @@ body.spring {
 }
 
 #logo {
+	position: absolute;
 	background-image: url("../images/logo.png");
 	width: 170px;
 	height: 140px;
 	background-size: 170px 170px;
 	background-position: center center;
-	margin-left: 20px;
 	display: inline-block;
+	margin-left: 20px;
 }
 
 #slogan {
+	position: absolute;
+	display: inline;
 	width: 400px;
 	height: 60px;
-	display: inline-block;
-	position:absolute;
-	top:70px;
+	top: 80px;
+	margin-left: 200px;
 }
 
-#slogan span{
+#slogan span {
 	height: 30px;
-	top: 15px;
-	position: relative;
 	font-size: 30px;
 	font-style: italic;
 	font-weight: bold;
+
 }
 
 #words {
+	position: absolute;
+	top: 130px;
 	width: 700px;
 	height: 30px;
-	display: inline-block;
-	position: absolute;
-	top: 140px;
-	margin-left : -170px;
+	display: block;
+	margin-left: 20px;
 	font-style: italic;
 	font-weight: bold;
 	color: #343433;
@@ -150,11 +151,13 @@ span.p2{
 
 
 #navigation {
+	position: absolute;
 	width: 700px;
 	height: 70px;
 	padding: 0px;
-	position: absolute;
-	display: inline-block;
+	display: inline;
+	top: 10px;
+	margin-left: 200px;
 }
 
 #navigation .nav {

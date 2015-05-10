@@ -123,6 +123,14 @@ function updatePage()
 	} else {
 		$(".backdrop").hide();
 	}
+	var bodyWidth = $("body").width()
+	var centerWidth = $(".center").width();
+
+
+	$("#logo").left(bodyWidth - centerWidth);
+	$("#slogan").left(bodyWidth - centerWidth);
+	$("#words").left(bodyWidth - centerWidth);
+	$("#navigation").left(bodyWidth - centerWidth);
 }
 
 $( window ).bind("load", function () {
