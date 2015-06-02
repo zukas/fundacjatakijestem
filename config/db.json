@@ -298,6 +298,25 @@
 			{ "id" : "img20", "src" : "/images/events/Teatr_Baj_17-04-2015/P1016701_1_s.jpg" },
 			{ "id" : "img21", "src" : "/images/events/Teatr_Baj_17-04-2015/P10116801_1_s.jpg" }
  			]
+		},
+		"category11" : {
+			"images" : [ 
+			{ "id" : "img1", "src" : "/images/events/Frisbby_10_05_2015/P1016703_s.jpg" },
+			{ "id" : "img2", "src" : "/images/events/Frisbby_10_05_2015/P1016712_s.jpg" },
+			{ "id" : "img3", "src" : "/images/events/Frisbby_10_05_2015/P1016720_s.jpg" },
+			{ "id" : "img4", "src" : "/images/events/Frisbby_10_05_2015/P1016721_s.jpg" },
+			{ "id" : "img5", "src" : "/images/events/Frisbby_10_05_2015/P1016723_s.jpg" },
+			{ "id" : "img6", "src" : "/images/events/Frisbby_10_05_2015/P1016726_s.jpg" },
+			{ "id" : "img7", "src" : "/images/events/Frisbby_10_05_2015/P1016727_s.jpg" },
+			{ "id" : "img8", "src" : "/images/events/Frisbby_10_05_2015/P1016728_s.jpg" },
+			{ "id" : "img9", "src" : "/images/events/Frisbby_10_05_2015/P1016731_s.jpg" },
+			{ "id" : "img10", "src" : "/images/events/Frisbby_10_05_2015/P1016734_s.jpg" },
+			{ "id" : "img11", "src" : "/images/events/Frisbby_10_05_2015/P1016735_s.jpg" },
+			{ "id" : "img12", "src" : "/images/events/Frisbby_10_05_2015/P1016737_s.jpg" },
+			{ "id" : "img13", "src" : "/images/events/Frisbby_10_05_2015/P1016738_s.jpg" },
+			{ "id" : "img14", "src" : "/images/events/Frisbby_10_05_2015/P1016742_s.jpg" },
+			{ "id" : "img15", "src" : "/images/events/Frisbby_10_05_2015/P1016744_s.jpg" }
+			]
 		}
 	}
 }

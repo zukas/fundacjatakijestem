@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"mag",
+				"margin-left"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
 				"in",
 				"inline"
 			],
@@ -58,10 +74,6 @@
 			[
 				"i",
 				"inline-block"
-			],
-			[
-				"margin",
-				"margin"
 			],
 			[
 				"fon",
@@ -188,10 +200,6 @@
 				"background-size"
 			],
 			[
-				"ma",
-				"margin"
-			],
-			[
 				"ite",
 				"items"
 			],
@@ -292,34 +300,29 @@
 			}
 		},
 		{
-			"file": "config/db.json",
+			"file": "public/css/style.css",
 			"settings":
 			{
-				"buffer_size": 23172,
+				"buffer_size": 4783,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/zukas/Documents/ms_logo.svg",
+			"contents": "<!doctype html>\n<html>\n	<head>\n  		<meta charset=\"utf-8\">\n  		<!--[if (IE 6) | (IE 7) | (IE 8)]>\n  		<link rel=\"stylesheet\" href=\"./css/unsupported.css\" type=\"text/css\">\n  		<![endif]-->\n  		<!--[if (gte IE 9)|!(IE)]><!-->\n  		<script type=\"text/javascript\" src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js\"></script>\n  		<script type=\"text/javascript\" src=\"./script/jquery.flex-images.js\"></script>\n  		<script type=\"text/javascript\" src=\"./script/jquery.scrollTo.js\"></script>\n  		<script type=\"text/javascript\" src=\"./script/jquery.media.js\"></script>\n  		<script type=\"text/javascript\" src=\"./script/jquery.magnific-popup.js\"></script>\n  		{% block script %}\n  		{% endblock script %}\n  		<script type=\"text/javascript\" src=\"./script/init.js\"></script>\n  		\n  		<link rel=\"stylesheet\" href=\"./css/magnific-popup.css\" type=\"text/css\">\n  		{% block style %}\n  		{% endblock style %}\n  		<link rel=\"stylesheet\" href=\"./css/style.css\" type=\"text/css\">\n  		<!--<![endif]-->\n  		<title>Fundacja TAKI JESTEM</title>\n	</head>\n\n	<body class=\"{{ season }}\">\n		<!--[if (IE 9) | (IE 10) | (IE 11)]>\n		<script>\n		document.body.className += \" ie\";\n		</script>\n		<![endif]-->\n		<!--[if IE 8]>\n		<script>\n		document.body.className += \" ie8\";\n		</script>\n		<![endif]-->\n		<!--[if (IE 6) | (IE 7) | (IE 8)]>\n  		<div class=\"unsupported center\">\n  			<img id=\"logo\" src=\"./images/logo.png\"></img>\n		    <div id=\"slogan\"><span class=\"p1 text\">Fundacja </span><span class=\"p2 text\">TAKI JESTEM</span></div>\n		    <div id=\"words\">Aktywizowanie i wspieranie osób z niepełnosprawnością intelektualną</div>\n  			<div class=\"text\">Pragniemy poinformować, iż przeglądarka z której korzystasz, nie może być użyta do obejrzenia tej strony internetowej. Aby uzyskać dostęp do strony, proszę skorzystać z nowoczesnej przeglądarki internetowej.</div>\n  			<div class=\"text\">Sugerujemy następujące przeglądarki internetowe:</div>\n  			<a href=\"https://www.mozilla.org/en-US/firefox/all/?q=Polish,%20Polski\"><img class=\"browser\" src=\"./images/firefox.png\"></a>\n  			<a href=\"https://www.google.pl/intl/en/chrome/browser/\"><img class=\"browser\" src=\"./images/chrome.png\"></a>\n  		</div>\n  		<![endif]-->\n		<!--[if (gte IE 9)|!(IE)]><!-->\n<!-- 	<div id=\"backPic1\" class=\"pictureFrame backdrop\">\n			<img src=\"images/322.jpg\">\n		</div>\n		<div id=\"backPic2\" class=\"pictureFrame backdrop\">\n			<img src=\"images/2041.jpg\">\n		</div>\n		<div id=\"backPic3\" class=\"pictureFrame backdrop\">\n			<img src=\"images/122.jpg\">\n		</div> -->\n		<div id=\"header\">\n			<div class=\"center\">\n		    	<div id=\"logo\"></div>\n		    	<div id=\"slogan\"><span class=\"p1 text\">Fundacja </span><span class=\"p2 text\">TAKI JESTEM</span></div>\n		    	<div id=\"words\" class=\"text\">Aktywizowanie i wspieranie osób z niepełnosprawnością intelektualną</div>\n		    	<div id=\"	\">\n		    		<input type=\"button\" class=\"nav text strong\" id=\"home\" value=\"Strona Główna\"></input>\n		    		<input type=\"button\" class=\"nav text strong\" id=\"about\" value=\"O Nas\"></input>\n		    		<input type=\"button\" class=\"nav text strong\" id=\"events\" value=\"Wydarzenia\"></input>\n		    		<input type=\"button\" class=\"nav text strong\" id=\"contact\" value=\"Kontakt\"></input>\n		    	</div>\n	    	</div>\n	    </div>\n	    <div id=\"headerSeparator\"></div>\n	    <div id=\"contentWrapper\" class=\"center\">\n	    	<div id=\"content\">\n	    		{% block content %}\n  				{% endblock content %}\n	    	</div>\n	    </div>\n	    <div id=\"footer\">\n	    	<div class=\"center\">\n	    		<div class=\"text\"><span class=\"p1 text strong\">Fundacja </span><span class=\"p2 text strong\">TAKI JESTEM </span>&reg; (KRS: 0000475152)</div>\n	    		<div class=\"text\">ul. Puszczyka 15 lok 18</div>\n	    		<div class=\"text\">02-785 Warszawa</div>\n	    		<div class=\"text\"><strong>Bank Pekao S.A., 98 1240 6250 1111 0010 5425 9325</strong></div>\n	    		<div id=\"season\"></div>\n	    	</div>\n	    </div>\n	    <!--<![endif]-->\n	</body>\n</html>",
+			"file": "views/layout.html",
+			"file_size": 3944,
+			"file_write_time": 130624337468558427,
 			"settings":
 			{
-				"buffer_size": 305622,
+				"buffer_size": 3908,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/zukas/Documents/ms_logo.eps",
+			"file": "public/script/init.js",
 			"settings":
 			{
-				"buffer_size": 3596786,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/zukas/Downloads/ms_logo.svg",
-			"settings":
-			{
-				"buffer_size": 130979,
+				"buffer_size": 4543,
 				"line_ending": "Unix"
 			}
 		}
@@ -360,12 +363,18 @@
 		"/home/zukas/repos/fundacjatakijestem/config",
 		"/home/zukas/repos/fundacjatakijestem/engines",
 		"/home/zukas/repos/fundacjatakijestem/public",
-		"/home/zukas/repos/fundacjatakijestem/routes"
+		"/home/zukas/repos/fundacjatakijestem/public/css",
+		"/home/zukas/repos/fundacjatakijestem/public/script",
+		"/home/zukas/repos/fundacjatakijestem/routes",
+		"/home/zukas/repos/fundacjatakijestem/views"
 	],
 	"file_history":
 	[
-		"/home/zukas/Documents/ms_logo2.svg",
 		"/home/zukas/repos/fundacjatakijestem/config/db.json",
+		"/home/zukas/Documents/ms_logo.svg",
+		"/home/zukas/Documents/ms_logo.eps",
+		"/home/zukas/Downloads/ms_logo.svg",
+		"/home/zukas/Documents/ms_logo2.svg",
 		"/home/zukas/repos/fundacjatakijestem/public/css/home.css",
 		"/home/zukas/repos/fundacjatakijestem/public/script/home.js",
 		"/home/zukas/repos/fundacjatakijestem/public/script/jquery.magnific-popup.js",
@@ -532,7 +541,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -558,123 +567,102 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 648.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "config/db.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 23172,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								23002,
-								23002
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 4797.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "/home/zukas/Documents/ms_logo.svg",
+					"buffer": 1,
+					"file": "public/css/style.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 305622,
+						"buffer_size": 4783,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								2160,
+								2160
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/XML/XML.tmLanguage"
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1872.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "views/layout.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3908,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2322,
+								2322
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1134.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
 				{
 					"buffer": 3,
-					"file": "/home/zukas/Documents/ms_logo.eps",
+					"file": "public/script/init.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3596786,
+						"buffer_size": 4543,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								3681,
+								3681
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1782.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/home/zukas/Downloads/ms_logo.svg",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 130979,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -697,11 +685,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
