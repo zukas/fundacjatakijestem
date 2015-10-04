@@ -292,37 +292,18 @@
 	"buffers":
 	[
 		{
-			"file": "views/events.html",
+			"file": "/home/zukas/repos/msart/main.js",
 			"settings":
 			{
-				"buffer_size": 20874,
+				"buffer_size": 1582,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "public/css/style.css",
+			"file": "routes/index.js",
 			"settings":
 			{
-				"buffer_size": 4783,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "<!doctype html>\n<html>\n	<head>\n  		<meta charset=\"utf-8\">\n  		<!--[if (IE 6) | (IE 7) | (IE 8)]>\n  		<link rel=\"stylesheet\" href=\"./css/unsupported.css\" type=\"text/css\">\n  		<![endif]-->\n  		<!--[if (gte IE 9)|!(IE)]><!-->\n  		<script type=\"text/javascript\" src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js\"></script>\n  		<script type=\"text/javascript\" src=\"./script/jquery.flex-images.js\"></script>\n  		<script type=\"text/javascript\" src=\"./script/jquery.scrollTo.js\"></script>\n  		<script type=\"text/javascript\" src=\"./script/jquery.media.js\"></script>\n  		<script type=\"text/javascript\" src=\"./script/jquery.magnific-popup.js\"></script>\n  		{% block script %}\n  		{% endblock script %}\n  		<script type=\"text/javascript\" src=\"./script/init.js\"></script>\n  		\n  		<link rel=\"stylesheet\" href=\"./css/magnific-popup.css\" type=\"text/css\">\n  		{% block style %}\n  		{% endblock style %}\n  		<link rel=\"stylesheet\" href=\"./css/style.css\" type=\"text/css\">\n  		<!--<![endif]-->\n  		<title>Fundacja TAKI JESTEM</title>\n	</head>\n\n	<body class=\"{{ season }}\">\n		<!--[if (IE 9) | (IE 10) | (IE 11)]>\n		<script>\n		document.body.className += \" ie\";\n		</script>\n		<![endif]-->\n		<!--[if IE 8]>\n		<script>\n		document.body.className += \" ie8\";\n		</script>\n		<![endif]-->\n		<!--[if (IE 6) | (IE 7) | (IE 8)]>\n  		<div class=\"unsupported center\">\n  			<img id=\"logo\" src=\"./images/logo.png\"></img>\n		    <div id=\"slogan\"><span class=\"p1 text\">Fundacja </span><span class=\"p2 text\">TAKI JESTEM</span></div>\n		    <div id=\"words\">Aktywizowanie i wspieranie osób z niepełnosprawnością intelektualną</div>\n  			<div class=\"text\">Pragniemy poinformować, iż przeglądarka z której korzystasz, nie może być użyta do obejrzenia tej strony internetowej. Aby uzyskać dostęp do strony, proszę skorzystać z nowoczesnej przeglądarki internetowej.</div>\n  			<div class=\"text\">Sugerujemy następujące przeglądarki internetowe:</div>\n  			<a href=\"https://www.mozilla.org/en-US/firefox/all/?q=Polish,%20Polski\"><img class=\"browser\" src=\"./images/firefox.png\"></a>\n  			<a href=\"https://www.google.pl/intl/en/chrome/browser/\"><img class=\"browser\" src=\"./images/chrome.png\"></a>\n  		</div>\n  		<![endif]-->\n		<!--[if (gte IE 9)|!(IE)]><!-->\n<!-- 	<div id=\"backPic1\" class=\"pictureFrame backdrop\">\n			<img src=\"images/322.jpg\">\n		</div>\n		<div id=\"backPic2\" class=\"pictureFrame backdrop\">\n			<img src=\"images/2041.jpg\">\n		</div>\n		<div id=\"backPic3\" class=\"pictureFrame backdrop\">\n			<img src=\"images/122.jpg\">\n		</div> -->\n		<div id=\"header\">\n			<div class=\"center\">\n		    	<div id=\"logo\"></div>\n		    	<div id=\"slogan\"><span class=\"p1 text\">Fundacja </span><span class=\"p2 text\">TAKI JESTEM</span></div>\n		    	<div id=\"words\" class=\"text\">Aktywizowanie i wspieranie osób z niepełnosprawnością intelektualną</div>\n		    	<div id=\"	\">\n		    		<input type=\"button\" class=\"nav text strong\" id=\"home\" value=\"Strona Główna\"></input>\n		    		<input type=\"button\" class=\"nav text strong\" id=\"about\" value=\"O Nas\"></input>\n		    		<input type=\"button\" class=\"nav text strong\" id=\"events\" value=\"Wydarzenia\"></input>\n		    		<input type=\"button\" class=\"nav text strong\" id=\"contact\" value=\"Kontakt\"></input>\n		    	</div>\n	    	</div>\n	    </div>\n	    <div id=\"headerSeparator\"></div>\n	    <div id=\"contentWrapper\" class=\"center\">\n	    	<div id=\"content\">\n	    		{% block content %}\n  				{% endblock content %}\n	    	</div>\n	    </div>\n	    <div id=\"footer\">\n	    	<div class=\"center\">\n	    		<div class=\"text\"><span class=\"p1 text strong\">Fundacja </span><span class=\"p2 text strong\">TAKI JESTEM </span>&reg; (KRS: 0000475152)</div>\n	    		<div class=\"text\">ul. Puszczyka 15 lok 18</div>\n	    		<div class=\"text\">02-785 Warszawa</div>\n	    		<div class=\"text\"><strong>Bank Pekao S.A., 98 1240 6250 1111 0010 5425 9325</strong></div>\n	    		<div id=\"season\"></div>\n	    	</div>\n	    </div>\n	    <!--<![endif]-->\n	</body>\n</html>",
-			"file": "views/layout.html",
-			"file_size": 3944,
-			"file_write_time": 130624337468558427,
-			"settings":
-			{
-				"buffer_size": 3908,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "public/script/init.js",
-			"settings":
-			{
-				"buffer_size": 4543,
+				"buffer_size": 849,
 				"line_ending": "Unix"
 			}
 		}
@@ -359,18 +340,21 @@
 	},
 	"expanded_folders":
 	[
-		"/home/zukas/repos/fundacjatakijestem",
 		"/home/zukas/repos/fundacjatakijestem/config",
 		"/home/zukas/repos/fundacjatakijestem/engines",
-		"/home/zukas/repos/fundacjatakijestem/public",
-		"/home/zukas/repos/fundacjatakijestem/public/css",
-		"/home/zukas/repos/fundacjatakijestem/public/script",
-		"/home/zukas/repos/fundacjatakijestem/routes",
-		"/home/zukas/repos/fundacjatakijestem/views"
+		"/home/zukas/repos/fundacjatakijestem/routes"
 	],
 	"file_history":
 	[
 		"/home/zukas/repos/fundacjatakijestem/config/db.json",
+		"/home/zukas/repos/fundacjatakijestem/config/setup.js",
+		"/home/zukas/repos/fundacjatakijestem/views/layout.html",
+		"/home/zukas/repos/fundacjatakijestem/views/events.html",
+		"/home/zukas/repos/City-Master-2015-build/Resources/res_back_jpg.h",
+		"/home/zukas/repos/City-Master-2015/Tests/textures.cpp",
+		"/home/zukas/repos/City-Master-2015-build/Resources/res_mars_dds.h",
+		"/home/zukas/repos/fundacjatakijestem/public/css/style.css",
+		"/home/zukas/repos/fundacjatakijestem/public/script/init.js",
 		"/home/zukas/Documents/ms_logo.svg",
 		"/home/zukas/Documents/ms_logo.eps",
 		"/home/zukas/Downloads/ms_logo.svg",
@@ -381,13 +365,9 @@
 		"/home/zukas/repos/fundacjatakijestem/views/about.html",
 		"/home/zukas/repos/fundacjatakijestem/views/home.html",
 		"/home/zukas/repos/fundacjatakijestem/public/css/events.css",
-		"/home/zukas/repos/fundacjatakijestem/public/css/style.css",
-		"/home/zukas/repos/fundacjatakijestem/views/events.html",
 		"/home/zukas/repos/fundacjatakijestem/server.js",
-		"/home/zukas/repos/fundacjatakijestem/public/script/init.js",
 		"/home/zukas/repos/fundacjatakijestem/routes/index.js",
 		"/home/zukas/repos/fundacjatakijestem/public/script/events.js",
-		"/home/zukas/repos/fundacjatakijestem/views/layout.html",
 		"/home/zukas/repos/fundacjatakijestem/public/css/about.css",
 		"/home/zukas/repos/fundacjatakijestem/public/css/unsupported.css",
 		"/home/zukas/repos/fundacjatakijestem/public/script/jquery.scrollTo.js",
@@ -476,6 +456,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"START OBJECT 0xb1c49c",
+			"START OBJECT 0xb1c480",
+			"Teatr_Baj_17-04-2015",
 			"Teatr_Roma_strona zdjecia_17-04-2015",
 			"Teatr_Pantomimy-24-03-2015",
 			"console.log",
@@ -516,6 +499,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"Frisbby_10_05_2015",
 			"Teatr_Baj_17-04-2015",
 			"Teatr_Roma_strona zdjecia_17-04-2015",
 			"Teatr_Pantomimy-24-03-2015",
@@ -546,111 +530,48 @@
 			[
 				{
 					"buffer": 0,
-					"file": "views/events.html",
+					"file": "/home/zukas/repos/msart/main.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 20874,
+						"buffer_size": 1582,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3464,
-								3464
+								1579,
+								1579
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": -0.0,
+						"translation.y": 54.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "public/css/style.css",
-					"semi_transient": false,
+					"file": "routes/index.js",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 4783,
+						"buffer_size": 849,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2160,
-								2160
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1872.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "views/layout.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3908,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2322,
-								2322
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1134.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 3,
-					"file": "public/script/init.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4543,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3681,
-								3681
+								0,
+								0
 							]
 						],
 						"settings":
@@ -659,10 +580,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1782.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -685,18 +606,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
@@ -756,7 +670,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 244.0,
+	"side_bar_width": 432.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
