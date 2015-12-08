@@ -1,23 +1,35 @@
+.post-container {
+	min-height: 80px;
+	width: 100%;
+	display: table;
+}
+
 .postContent {
-	display: block;
-	position: relative;
+	display: table-cell;
 	text-align: left;
 	font-size: 0.9em;
+	vertical-align: middle;
+	margin-left: 20px;
 }
 
 .post .img {
-	display: inline;
-	max-width: 20%;
+	display: table-cell;
+	width: 120px;
+	vertical-align: top;
+	margin-right: 20px;
 }
 
 .post .date {
+	display: block;
 	margin-bottom : 20px;
 	text-align: right;
 	color: #777;
 	font-size: 0.8em;
+	width: 100%;
 }
 
 .post {
+	margin: 20px 0px;
 }
 
 .post:last-child {
