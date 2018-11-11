@@ -2075,6 +2075,46 @@
                     "src": "/images/events/Dni_Ursynowa_18_06_2016/P1013646_s.jpg"
                 }
             ]
+        },
+        "category19": {
+            "images": [
+                {
+                    "id": "img1",
+                    "src": "/images/events/Turnus_Rehabilitacyjny/1_s.jpg"
+                },
+                {
+                    "id": "img2",
+                    "src": "/images/events/Turnus_Rehabilitacyjny/2_2.jpg"
+                },
+                {
+                    "id": "img3",
+                    "src": "/images/events/Turnus_Rehabilitacyjny/3_s.jpg"
+                },
+                {
+                    "id": "img4",
+                    "src": "/images/events/Turnus_Rehabilitacyjny/4_s.jpg"
+                },
+                {
+                    "id": "img5",
+                    "src": "/images/events/Turnus_Rehabilitacyjny/5_s.jpg"
+                },
+                {
+                    "id": "img6",
+                    "src": "/images/events/Turnus_Rehabilitacyjny/6_s.jpg"
+                },
+                {
+                    "id": "img7",
+                    "src": "/images/events/Turnus_Rehabilitacyjny/7_s.jpg"
+                },
+                {
+                    "id": "img8",
+                    "src": "/images/events/Turnus_Rehabilitacyjny/8_s.jpg"
+                },
+                {
+                    "id": "img9",
+                    "src": "/images/events/Turnus_Rehabilitacyjny/9_s.jpg"
+                }
+            ]
         }
     }
 }
