@@ -2843,6 +2843,74 @@
                     "src": "/images/events/Aisec/9_s.jpg"
                 }
             ]
+        },
+        "category23": {
+            "images": [
+                {
+                    "id": "img1",
+                    "src": "/images/events/Teatr_Baj_28_01_2017/P1017404_s.JPG"
+                },
+                {
+                    "id": "img2",
+                    "src": "/images/events/Teatr_Baj_28_01_2017/P1017405_s.JPG"
+                },
+                {
+                    "id": "img3",
+                    "src": "/images/events/Teatr_Baj_28_01_2017/P1017406_s.JPG"
+                },
+                {
+                    "id": "img4",
+                    "src": "/images/events/Teatr_Baj_28_01_2017/P1017411_s.JPG"
+                },
+                {
+                    "id": "img5",
+                    "src": "/images/events/Teatr_Baj_28_01_2017/P1017429_s.JPG"
+                },
+                {
+                    "id": "img6",
+                    "src": "/images/events/Teatr_Baj_28_01_2017/P1017432_s.JPG"
+                },
+                {
+                    "id": "img7",
+                    "src": "/images/events/Teatr_Baj_28_01_2017/P1017440_s.JPG"
+                },
+                {
+                    "id": "img8",
+                    "src": "/images/events/Teatr_Baj_28_01_2017/P1017441_s.JPG"
+                },
+                {
+                    "id": "img9",
+                    "src": "/images/events/Teatr_Baj_28_01_2017/P1017442_s.JPG"
+                },
+                {
+                    "id": "img10",
+                    "src": "/images/events/Teatr_Baj_28_01_2017/P1017443_s.JPG"
+                },
+                {
+                    "id": "img11",
+                    "src": "/images/events/Teatr_Baj_28_01_2017/P1017444_s.JPG"
+                },
+                {
+                    "id": "img12",
+                    "src": "/images/events/Teatr_Baj_28_01_2017/P1017445_s.JPG"
+                },
+                {
+                    "id": "img13",
+                    "src": "/images/events/Teatr_Baj_28_01_2017/P1017457_s.JPG"
+                },
+                {
+                    "id": "img14",
+                    "src": "/images/events/Teatr_Baj_28_01_2017/P1017464_s.JPG"
+                },
+                {
+                    "id": "img15",
+                    "src": "/images/events/Teatr_Baj_28_01_2017/P1017469_s.JPG"
+                },
+                {
+                    "id": "img16",
+                    "src": "/images/events/Teatr_Baj_28_01_2017/P1017470_s.JPG"
+                }
+            ]
         }
     }
 }
