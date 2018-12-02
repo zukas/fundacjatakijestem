@@ -1,5 +1,6 @@
 var fs 		= require("fs"),
 	path 	= require('path');
+	nc 		= require('../naturalcompare')
 
 var args 	= process.argv.slice(2),
 	dir 	= args[0],
@@ -10,6 +11,8 @@ fs.readdir(dir, function (readdir_err, files) {
 		console.log(readdir_err);
 		return;
 	}
+
+	files.sort(nc);
 
 	var regex 		= /[\w\d]+_s\.jpg/i,
 		idx 		= 1,
