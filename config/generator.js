@@ -10,7 +10,8 @@ fs.readdir(dir, function (readdir_err, files) {
 		console.log(readdir_err);
 		return;
 	}
-	var regex 		= /\w+_s\.jpg/,
+
+	var regex 		= /[\w\d]+_s\.jpg/i,
 		idx 		= 1,
 		category 	= { images : [] };
 	for(var i in  files) {
