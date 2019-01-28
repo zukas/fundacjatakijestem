@@ -8,6 +8,10 @@ a:hover {
 	color: #f7941e;
 }
 
+b {
+	font-weight: bold;
+}
+
 .post-container {
 	position: relative;
 	min-height: 80px;
